@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #007bff;
+    padding: 20px 0;
+}
+
+header .logo h1 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.perfil img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: space-around;
+}
+
+.habilidade {
+    text-align: center;
+    max-width: 300px;
+}
+
+.projetos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projeto {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex-basis: 30%;
+}
+
+.projeto h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .habilidades {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projetos {
+        flex-direction: column;
+    }
+
+    .projeto {
+        max-width: 100%;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+section > div > div > img{
+    margin-bottom: 40px;
+}
+
+section > div > div > p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#squirrel{
+    width: 250px;
+}
+
+.projeto > img{
+    margin-bottom: 15px;
+}
