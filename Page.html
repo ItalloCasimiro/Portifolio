@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Meu Portfólio</title>
+    <title>Portfólio Itallo Casimiro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,11 +15,13 @@
             <div class="logo">
                 <h1>Meu Portfólio</h1>
             </div>
+            <button class="menu-toggle">&#9776;</button> <!-- Ícone de menu hambúrguer -->
             <nav>
                 <ul>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#habilidades">Habilidades</a></li>
                     <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#certificados">Certificados</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
@@ -31,7 +33,7 @@
             <h2>Sobre Mim, Itallo Casimiro</h2>
             <div class="perfil">
                 <img src="images/profile-image-purple.png" alt="Foto de Perfil">
-                <p>Olá! Sou estudante de design de jogos e programação, estou me preparando para revolucionar a insdústria e criar meu próprio game studio</p>
+                <p>Olá! Sou estudante de design de jogos e programação, estou me preparando para revolucionar a insdústria e ter minha primeira experiência de trabalho com desenvolvimento de jogos</p>
             </div>
         </div>
     </section>
@@ -60,6 +62,10 @@
                     <h3>Programação</h3>
                     <p>Conhecimento em programação</p>
                 </div>
+                <div class="habilidade">
+                    <h3>Inglês</h3>
+                    <p>Conhecimento em inglês em nível intermediário</p>
+                </div>
             </div>
         </div>
     </section>
@@ -73,6 +79,25 @@
                     <p>Squirrel Bucket é um jogo 2D Catcher que se passa em uma única tela em que o jogador, que controla um esquilo com um barril, deve pegar as nozes que caem do céu sem deixa-las cair no chão<br>
                        O jogo se baseia em quebrar o recorde pessoal a cada partida, sendo esse recorde o número de nozes pegos na partida anterior<br><br>*Idealizando o projeto*</p>
                 </div>
+                <div class="projeto">
+                    <img src="images/Capa do ebook white.png" id="eBook">
+                    <p>Meu eBook, Game Design, o processo de criação de um jogo, ensina os fundamentos e introduz o game design gratuitamente<br><br><a href="https://itallocasimiro.github.io/Game-Design-eBook" target="_blank"><button id="eBookButton">Acessar o site do eBook</button></a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificados" class="section">
+        <div class="container">
+            <h2>Certificados</h2>
+            <p>Alguns certificados que conquistei ao longo da minha jornada de estudos:</p>
+            <div class="certificados">
+                <div class="certificado">
+                    <img src="images/GDX-certificado.png" alt="Certificado de Game Design">
+                    <h3>Certificado do curso Game Design Experience</h3>
+                    <p>Este curso me ensinou muito sbore o game design e fundamentos essenciais que não sabia</p>
+                    <a href="images/GDX-certificado.pdf" target="_blank">Ver Certificado</a>
+                </div>
             </div>
         </div>
     </section>
@@ -80,8 +105,8 @@
     <section id="contato" class="section">
         <div class="container">
             <h2>Contato</h2>
-            <p>Instagram: <a href="https://instagram.com/itallo_casimiro/profilecard/?igsh=MWxsbDIpNmlmdjJqNA==">@Itallo_Casimiro</a></p>
-            <p>GitHub: <a href="https://github.com/ItalloCasimiro">Itallo Casimiro Felix</a></p>
+            <p>Instagram: <a href="https://instagram.com/itallo_casimiro/profilecard/?igsh=MWxsbDIpNmlmdjJqNA==" target="_blank">@Itallo_Casimiro</a></p>
+            <p>GitHub: <a href="https://github.com/ItalloCasimiro" target="_blank">Itallo Casimiro Felix</a></p>
         </div>
     </section>
 
@@ -90,5 +115,17 @@
             <p>&copy; 2024 Itallo Casimiro</p>
         </div>
     </footer>
+
+    <script>
+        // Seleciona o botão de menu e o contêiner de navegação
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav');
+
+// Adiciona o evento de clique ao botão de menu
+        menuToggle.addEventListener('click', () => {
+        nav.classList.toggle('active'); // Alterna a classe 'active' para exibir/ocultar o menu
+        });
+
+    </script>
 </body>
 </html>
