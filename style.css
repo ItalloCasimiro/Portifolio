@@ -189,6 +189,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 section > div > div > img{
     margin-bottom: 40px;
 }
