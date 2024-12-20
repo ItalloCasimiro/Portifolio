@@ -135,7 +135,123 @@ h2 {
 .habilidade {
     text-align: center;
     max-width: 300px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
+.habilidade:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+/* Reset básico e estilo inicial */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Estilos para a sessão de tecnologias */
+  .technologies {
+    background-color: #f4f4f4;
+    color: black;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .technologies h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .tech-icon {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tech-icon img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .tech-icon p {
+    font-size: 1rem;
+    color: black;
+  }
+  
+  /* Efeito de hover nas tecnologias */
+  .tech-icon:hover img {
+    transform: scale(1.1);
+  }
+  
+  .tech-icon:hover p {
+    color: #007bff;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .tech-icons {
+      gap: 15px;
+    }
+  
+    .tech-icon {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .tech-icon img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .technologies h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tech-icons {
+      gap: 10px;
+    }
+  
+    .tech-icon {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .tech-icon img {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .technologies h2 {
+      font-size: 1.2rem;
+    }
+  }
+  
 
 .projetos {
     display: flex;
@@ -203,11 +319,15 @@ section > div > div > p{
 }
 
 #squirrel{
-    width: 250px;
+    width: 80%;
+    max-width: 250px;
+    min-width: 150px;
 }
 
 #eBook{
-    width: 250px;
+    width: 80%;
+    max-width: 250px;
+    min-width: 150px;
 }
 
 .projeto > img{
@@ -237,7 +357,8 @@ section > div > div > p{
 }
 
 .certificado img {
-    max-width: 70%; /* Garante que a imagem ocupe 100% da largura disponível */
+    width: 70%;
+    max-width: 400px; /* Garante que a imagem ocupe 100% da largura disponível */
     height: auto;
     margin-bottom: 15px;
 }
@@ -277,4 +398,91 @@ section > div > div > p{
     color: white;
     border: none;
     border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#eBookButton:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos Gerais */
+#contato {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Estilo para os links de contato */
+.contato-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.contato-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 250px;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.contato-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.social-icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    object-fit: contain;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .contato-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contato-item {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contato-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-icon {
+        width: 30px;
+        height: 30px;
+    }
 }
