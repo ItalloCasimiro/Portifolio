@@ -77,31 +77,6 @@ nav ul li a {
     font-size: 1.2rem;
 }
 
-/* Responsividade */
-@media screen and (max-width: 768px) {
-    /* Torna o menu de navegação oculto por padrão */
-    nav ul {
-        display: none;
-        width: 100%;
-        text-align: center;
-    }
-
-    /* Exibe o menu quando o botão hambúrguer for clicado */
-    nav.active ul {
-        display: block;
-    }
-
-    /* Exibe o botão de menu (hamburguer) */
-    .menu-toggle {
-        display: block;
-    }
-
-    /* Ajustes no estilo dos links em telas menores */
-    nav ul li {
-        margin: 10px 0;
-    }
-}
-
 section {
     padding: 60px 0;
 }
@@ -148,38 +123,6 @@ h2 {
     text-align: left;
     align-items: end;
     z-index: 2;
-}
-
-@media(min-width: 1024px){
-    .perfil img{
-        top: 59%;
-        left: 80%;
-        width: 400px;
-    }
-    .text{
-        top: 65%;
-        left: 30%;
-        width: 600px;
-    }
-    #text-sobre{
-        margin-top: 20px;
-    }
-}
-
-@media(max-width: 1024px){
-    .text{
-        top: 85%;
-        font-size: 1.5em;
-        box-sizing: border-box;
-        width: 100%;
-        text-align: center;
-        text-shadow: black 2px 3px;
-    }
-    .perfil img{
-        max-width: 450px;
-        top: 67%;
-        left: 50%;
-    }
 }
 
 .habilidades {
@@ -265,48 +208,6 @@ h2 {
   .tech-icon:hover p {
     color: #007bff;
   }
-  
-  /* Responsividade */
-  @media (max-width: 768px) {
-    .tech-icons {
-      gap: 15px;
-    }
-  
-    .tech-icon {
-      width: 100px;
-      height: 100px;
-    }
-  
-    .tech-icon img {
-      width: 80px;
-      height: 80px;
-    }
-  
-    .technologies h2 {
-      font-size: 1.5rem;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .tech-icons {
-      gap: 10px;
-    }
-  
-    .tech-icon {
-      width: 80px;
-      height: 80px;
-    }
-  
-    .tech-icon img {
-      width: 60px;
-      height: 60px;
-    }
-  
-    .technologies h2 {
-      font-size: 1.2rem;
-    }
-  }
-  
 
 .projetos {
     display: flex;
@@ -338,22 +239,6 @@ footer {
 
 footer p {
     font-size: 1rem;
-}
-
-/* Responsividade */
-@media screen and (max-width: 768px) {
-    .habilidades {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .projetos {
-        flex-direction: column;
-    }
-
-    .projeto {
-        max-width: 100%;
-    }
 }
 
 a{
@@ -431,19 +316,6 @@ section > div > div > p{
     font-weight: bold;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
-    .certificados {
-        flex-direction: column; /* Alinha os certificados verticalmente */
-        align-items: center;
-    }
-
-    .certificado {
-        flex: 1 1 100%; /* Cada certificado ocupa 100% da largura disponível em telas pequenas */
-        max-width: 100%;
-    }
-}
-
 #eBookButton{
     padding: 10px;
     font-size: 16px;
@@ -517,8 +389,103 @@ h2 {
     object-fit: contain;
 }
 
-/* Responsividade */
+/*responsividade*/
+
+@media(min-width: 1024px){
+    .perfil img{
+        top: 59%;
+        left: 80%;
+        width: 400px;
+    }
+    .text{
+        top: 65%;
+        left: 30%;
+        width: 600px;
+    }
+    #text-sobre{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1024px){
+    .text{
+        top: 85%;
+        font-size: 1.5em;
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+        text-shadow: black 2px 3px;
+    }
+    .perfil img{
+        max-width: 450px;
+        top: 67%;
+        left: 50%;
+    }
+}
+
 @media (max-width: 768px) {
+    nav ul {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    /* Exibe o menu quando o botão hambúrguer for clicado */
+    nav.active ul {
+        display: block;
+    }
+
+    /* Exibe o botão de menu (hamburguer) */
+    .menu-toggle {
+        display: block;
+    }
+
+    /* Ajustes no estilo dos links em telas menores */
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .habilidades {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projetos {
+        flex-direction: column;
+    }
+
+    .projeto {
+        max-width: 100%;
+    }
+
+    .tech-icons {
+        gap: 15px;
+      }
+    
+      .tech-icon {
+        width: 100px;
+        height: 100px;
+      }
+    
+      .tech-icon img {
+        width: 80px;
+        height: 80px;
+      }
+    
+      .technologies h2 {
+        font-size: 1.5rem;
+      }
+
+    .certificados {
+        flex-direction: column; /* Alinha os certificados verticalmente */
+        align-items: center;
+    }
+
+    .certificado {
+        flex: 1 1 100%; /* Cada certificado ocupa 100% da largura disponível em telas pequenas */
+        max-width: 100%;
+    }
+
     .contato-links {
         flex-direction: column;
         align-items: center;
@@ -531,6 +498,24 @@ h2 {
 }
 
 @media (max-width: 480px) {
+    .tech-icons {
+        gap: 10px;
+      }
+    
+      .tech-icon {
+        width: 80px;
+        height: 80px;
+      }
+    
+      .tech-icon img {
+        width: 60px;
+        height: 60px;
+      }
+    
+      .technologies h2 {
+        font-size: 1.2rem;
+      }
+
     .contato-item {
         width: 100%;
         text-align: center;
