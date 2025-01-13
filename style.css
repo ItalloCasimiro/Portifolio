@@ -258,13 +258,33 @@ section > div > div > p{
     font-weight: bold;
 }
 
+#squirrel-project{
+    background-image: url("images/projects/fundo-projeto-Squirrel-Bucket.png");
+    background-size: cover;
+}
+
 #squirrel{
     width: 80%;
     max-width: 250px;
     min-width: 150px;
 }
 
+#eBook-project{
+    background-image: url("images/projects/fundo-projeto-eBook.png");
+}
+
 #eBook{
+    width: 80%;
+    max-width: 250px;
+    min-width: 150px;
+}
+
+#gaoxy-project{
+    background-image: url("images/projects/fundo-projeto-gaoxy.png");
+    color: white;
+}
+
+#Gaoxy{
     width: 80%;
     max-width: 250px;
     min-width: 150px;
