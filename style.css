@@ -280,7 +280,7 @@ section > div > div > p{
 }
 
 #gaoxy-project{
-    background-image: url("images/projects/fundo-projeto-gaoxy.png");
+    background-image: url("images/projects/fundo-projeto-Gaoxy.png");
     color: white;
 }
 
@@ -336,7 +336,7 @@ section > div > div > p{
     font-weight: bold;
 }
 
-#eBookButton{
+#RedirectionButton{
     padding: 10px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -348,9 +348,26 @@ section > div > div > p{
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-#eBookButton:hover{
+#RedirectionButton:hover{
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#RedirectionButton_Gaoxy{
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#RedirectionButton_Gaoxy:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
 }
 
 /* Estilos Gerais */
