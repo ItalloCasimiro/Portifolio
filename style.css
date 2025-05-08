@@ -312,6 +312,17 @@ section > div > div > p{
     background-image: linear-gradient(to top, black -10%, darkgray 10%, lightgray 15%, white 100%);
 }
 
+#Who-Did-That{
+    width: 100%;
+    max-width: 350px;
+    min-width: 240px;
+}
+
+#who-did-that-project{
+    background-image: url("images/projects/Who_did_that_background.png");
+    color: white;
+}
+
 .projeto > img{
     margin-bottom: 15px;
 }
