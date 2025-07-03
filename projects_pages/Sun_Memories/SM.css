@@ -6,10 +6,11 @@
 }
 
 body {
-    color: #D15522;
+    color: black;
     padding: 20px;
-    background-image: url("../../images/projects/fundo-projeto-Squirrel-Bucket.png");
-    background-size: cover
+    background-image: url("../../images/project_pages/Sun_Memories/Sun_Memories_BG.jpg");
+   background-position: center;
+   background-attachment: fixed;
 }
 
 header {
@@ -19,14 +20,14 @@ header {
 
 #logo {
     width: 80%;
-    max-width: 400px;
-    min-width: 230px;
+    max-width: 500px;
+    min-width: 300px;
     margin-bottom: 20px;
 }
 
 h1, h2 {
     text-align: center;
-    color: #654023;
+    color: #FC7300;
 }
 
 p {
@@ -37,8 +38,12 @@ p {
     font-weight: bold;
 }
 
+li {
+    font-weight: bold;
+}
+
 strong{
-    color: #654023;
+    color: #ECA720;
 }
 
 .video-container {
@@ -65,6 +70,21 @@ strong{
     text-align: center;
 }
 
+#Collectibles_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#Collectibles {
+    width: 80%;
+    min-width: 300px;
+    max-width: 512px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
 footer {
     text-align: center;
     margin-top: 40px;
@@ -77,7 +97,7 @@ footer {
 
 .detalhamento h3 {
     font-size: 1.3em;
-    color: #654023;
+    color: #FC7300;
     margin-top: 15px;
     text-align: center;
 }
@@ -86,6 +106,20 @@ footer {
     font-size: 1.1em;
     line-height: 1.6;
     margin-bottom: 15px;
+}
+
+#logo_jam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#logo_jam img {
+    width: 80%;
+    max-width: 400px;
+    min-width: 280px;
 }
 
 @media (min-width: 1024px) {
@@ -106,7 +140,7 @@ footer {
     }
 
     #logo {
-        width: 50%;
+        width: 65%;
     }
 }
 
@@ -159,7 +193,7 @@ footer {
     padding: 15px 30px;
     font-size: 18px;
     font-weight: bold;
-    background-color: #50C4FF;
+    background-color: #FCB736;
     color: white;
     border-radius: 10px;
     text-shadow: -2px 1px 2px black;
@@ -170,5 +204,5 @@ footer {
 .button:hover {
     transform: scale(1.05);
     box-shadow: 0 2px 8px rgb(255, 255, 255);
-    background-color: #1db4ff;
+    background-color: #ff9a47;
 }

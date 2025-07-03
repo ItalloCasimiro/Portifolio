@@ -6,10 +6,10 @@
 }
 
 body {
-    color: #D15522;
+    color: white;
     padding: 20px;
-    background-image: url("../../images/projects/fundo-projeto-Squirrel-Bucket.png");
-    background-size: cover
+    background-image: url("../../images/project_pages/Who_Did_That/background.png");
+    background-size: contain;
 }
 
 header {
@@ -19,14 +19,14 @@ header {
 
 #logo {
     width: 80%;
-    max-width: 400px;
-    min-width: 230px;
+    max-width: 550px;
+    min-width: 330px;
     margin-bottom: 20px;
 }
 
 h1, h2 {
     text-align: center;
-    color: #654023;
+    color: #F2CD63;
 }
 
 p {
@@ -34,11 +34,10 @@ p {
     max-width: 800px;
     margin: 20px auto;
     text-align: center;
-    font-weight: bold;
 }
 
 strong{
-    color: #654023;
+    color: #FCB952;
 }
 
 .video-container {
@@ -65,6 +64,41 @@ strong{
     text-align: center;
 }
 
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.control {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    max-width: 350px;
+}
+
+#controller img{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#buttons img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#keyboard img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
 footer {
     text-align: center;
     margin-top: 40px;
@@ -77,7 +111,7 @@ footer {
 
 .detalhamento h3 {
     font-size: 1.3em;
-    color: #654023;
+    color: #F2CD63;
     margin-top: 15px;
     text-align: center;
 }
@@ -106,7 +140,7 @@ footer {
     }
 
     #logo {
-        width: 50%;
+        width: 90%;
     }
 }
 
@@ -159,7 +193,7 @@ footer {
     padding: 15px 30px;
     font-size: 18px;
     font-weight: bold;
-    background-color: #50C4FF;
+    background-color: #F2CD63;
     color: white;
     border-radius: 10px;
     text-shadow: -2px 1px 2px black;
@@ -169,6 +203,6 @@ footer {
 
 .button:hover {
     transform: scale(1.05);
-    box-shadow: 0 2px 8px rgb(255, 255, 255);
-    background-color: #1db4ff;
+    box-shadow: 0 2px 8px rgb(0, 0, 0);
+    background-color: #FCB952;
 }
