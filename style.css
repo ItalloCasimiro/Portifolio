@@ -20,7 +20,6 @@ body {
     margin: 0 auto;
 }
 
-/* Estilo do Header e Navegação */
 header {
     background-color: #007bff;
     padding: 20px 0;
@@ -50,9 +49,8 @@ nav ul li a {
     font-size: 1.2rem;
 }
 
-/* Menu hambúrguer (visível em telas pequenas) */
 .menu-toggle {
-    display: none; /* Inicialmente escondido */
+    display: none;
     background-color: #007bff;
     border: none;
     color: white;
@@ -151,7 +149,6 @@ h2 {
 
 }
 
-/* Reset básico e estilo inicial */
 * {
     margin: 0;
     padding: 0;
@@ -163,7 +160,6 @@ h2 {
     background-color: #f4f4f4;
   }
   
-  /* Estilos para a sessão de tecnologias */
   .technologies {
     background-color: #f4f4f4;
     color: black;
@@ -204,7 +200,6 @@ h2 {
     color: black;
   }
   
-  /* Efeito de hover nas tecnologias */
   .tech-icon:hover img {
     transform: scale(1.1);
   }
@@ -340,6 +335,21 @@ section > div > div > p{
     min-width: 200px;
 }
 
+#eggIS-project{
+    background-image: url("images/projects/EggsIS_BG.png");
+    color: white;
+    background-position: 150vh;
+    font-weight: 600;
+    background-size: cover;
+}
+
+#Eggs_Incubation_Station{
+    width: 100%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
+
 .projeto > img{
     margin-bottom: 15px;
 }
@@ -348,7 +358,6 @@ ul{
     list-style-type: none;
 }
 
-/* Seção de Certificados */
 #certificados {
     background-color: #f4f4f4;
     padding: 40px 0;
@@ -424,7 +433,6 @@ ul{
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
 }
 
-/* Estilos Gerais */
 #contato {
     padding: 40px 0;
     background-color: #f4f4f4;
@@ -444,7 +452,6 @@ h2 {
     font-weight: bold;
 }
 
-/* Estilo para os links de contato */
 .contato-links {
     display: flex;
     flex-wrap: wrap;
@@ -529,17 +536,14 @@ h2 {
         text-align: center;
     }
     
-    /* Exibe o menu quando o botão hambúrguer for clicado */
     nav.active ul {
         display: block;
     }
 
-    /* Exibe o botão de menu (hamburguer) */
     .menu-toggle {
         display: block;
     }
 
-    /* Ajustes no estilo dos links em telas menores */
     nav ul li {
         margin: 10px 0;
     }
@@ -576,12 +580,12 @@ h2 {
       }
 
     .certificados {
-        flex-direction: column; /* Alinha os certificados verticalmente */
+        flex-direction: column;
         align-items: center;
     }
 
     .certificado {
-        flex: 1 1 100%; /* Cada certificado ocupa 100% da largura disponível em telas pequenas */
+        flex: 1 1 100%;
         max-width: 100%;
     }
 
