@@ -19,7 +19,7 @@ header {
 
 #logo {
     width: 80%;
-    max-width: 550px;
+    max-width: 600px;
     min-width: 330px;
     margin-bottom: 20px;
 }
@@ -38,6 +38,10 @@ p {
 
 strong{
     color: #FCB952;
+}
+
+a{
+    color: #F2CD63;
 }
 
 .video-container {
@@ -64,39 +68,18 @@ strong{
     text-align: center;
 }
 
-.controls {
+#confidential {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 40px;
-}
-
-.control {
-    flex: 1;
-    text-align: center;
-    margin: 10px;
-    max-width: 350px;
-}
-
-#controller img{
+    align-items: center;
     width: 100%;
-    max-width: 450px;
-    height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-#buttons img{
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-#keyboard img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    margin-bottom: 10px;
+#confidential img {
+    width: 90%;
+    max-width: 500px;
+    min-width: 300px;
 }
 
 footer {
