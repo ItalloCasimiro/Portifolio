@@ -8,8 +8,8 @@
 body {
     color: white;
     padding: 20px;
-    background-image: url("../../Images/projects/fundo-projeto-Gaoxy.png");
-    background-size: contain;
+    background-image: url("../../images/project_pages/Carnival_family/background.png");
+    background-size: cover;
 }
 
 header {
@@ -26,7 +26,7 @@ header {
 
 h1, h2 {
     text-align: center;
-    color: #50C4FF;
+    color: #28ca47;
 }
 
 p {
@@ -34,10 +34,11 @@ p {
     max-width: 800px;
     margin: 20px auto;
     text-align: center;
+    font-weight: bold;
 }
 
 strong{
-    color: #50C4FF;
+    color: #B458A8;
 }
 
 .video-container {
@@ -64,41 +65,6 @@ strong{
     text-align: center;
 }
 
-.controls {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-
-.control {
-    flex: 1;
-    text-align: center;
-    margin: 10px;
-    max-width: 350px;
-}
-
-#controller img{
-    width: 100%;
-    max-width: 450px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-#buttons img{
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-#keyboard img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
 footer {
     text-align: center;
     margin-top: 40px;
@@ -111,7 +77,7 @@ footer {
 
 .detalhamento h3 {
     font-size: 1.3em;
-    color: #50C4FF;
+    color: #28ca47;
     margin-top: 15px;
     text-align: center;
 }
@@ -120,6 +86,21 @@ footer {
     font-size: 1.1em;
     line-height: 1.6;
     margin-bottom: 15px;
+}
+
+#logo_jam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#logo_jam img {
+    width: 80%;
+    max-width: 300px;
+    min-width: 230px;
+    margin-left: 12px;
 }
 
 @media (min-width: 1024px) {

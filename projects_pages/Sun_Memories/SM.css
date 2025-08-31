@@ -6,12 +6,11 @@
 }
 
 body {
-    color: white;
-    font-weight: bolder;
+    color: black;
     padding: 20px;
-    background-image: url("../../Images/project_pages/Kris_Kringle_License_To_Jingle/LivingRoomBG.png");
-    background-size: cover;
-    background-attachment: fixed;
+    background-image: url("../../images/project_pages/Sun_Memories/Sun_Memories_BG.jpg");
+   background-position: center;
+   background-attachment: fixed;
 }
 
 header {
@@ -22,14 +21,13 @@ header {
 #logo {
     width: 80%;
     max-width: 500px;
-    min-width: 280px;
+    min-width: 300px;
     margin-bottom: 20px;
 }
 
 h1, h2 {
     text-align: center;
-    color: #445c7d;
-    text-shadow: -2px 1px 2px black
+    color: #FC7300;
 }
 
 p {
@@ -37,10 +35,15 @@ p {
     max-width: 800px;
     margin: 20px auto;
     text-align: center;
+    font-weight: bold;
+}
+
+li {
+    font-weight: bold;
 }
 
 strong{
-    color: #5b0008;
+    color: #ECA720;
 }
 
 .video-container {
@@ -67,25 +70,19 @@ strong{
     text-align: center;
 }
 
-.controls {
+#Collectibles_img {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 40px;
-}
-
-.control {
-    flex: 1;
-    text-align: center;
-    margin: 10px;
-    max-width: 350px;
-}
-
-#controller img{
+    align-items: center;
     width: 100%;
-    max-width: 500px;
-    height: auto;
-    margin-bottom: 10px;
+}
+
+#Collectibles {
+    width: 80%;
+    min-width: 300px;
+    max-width: 512px;
+    margin: auto;
+    margin-bottom: 40px;
 }
 
 footer {
@@ -100,10 +97,9 @@ footer {
 
 .detalhamento h3 {
     font-size: 1.3em;
-    color: #B76E3B;
+    color: #FC7300;
     margin-top: 15px;
     text-align: center;
-    text-shadow: -2px 1px 2px #5b0008;
 }
 
 .detalhamento p {
@@ -112,7 +108,7 @@ footer {
     margin-bottom: 15px;
 }
 
-#LogoJam {
+#logo_jam {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,7 +116,7 @@ footer {
     margin-bottom: 20px;
 }
 
-#LogoJam img {
+#logo_jam img {
     width: 80%;
     max-width: 400px;
     min-width: 280px;
@@ -144,7 +140,7 @@ footer {
     }
 
     #logo {
-        width: 50%;
+        width: 65%;
     }
 }
 
@@ -197,7 +193,7 @@ footer {
     padding: 15px 30px;
     font-size: 18px;
     font-weight: bold;
-    background-color: #B76E3B;
+    background-color: #FCB736;
     color: white;
     border-radius: 10px;
     text-shadow: -2px 1px 2px black;
@@ -207,6 +203,6 @@ footer {
 
 .button:hover {
     transform: scale(1.05);
-    box-shadow: 0 2px 8px #340004;
-    background-color: #854325;
+    box-shadow: 0 2px 8px rgb(255, 255, 255);
+    background-color: #ff9a47;
 }

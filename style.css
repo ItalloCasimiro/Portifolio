@@ -90,7 +90,7 @@ section {
     display: flex;
     justify-content: center;
     z-index: 2;
-    background: url('Images/Sobre/ProfileBG.png');
+    background: url('images/sobre/background.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -257,8 +257,19 @@ section > div > div > p{
     font-weight: bold;
 }
 
+#squirrel-project{
+    background-image: url("images/projects/fundo-projeto-Squirrel-Bucket.png");
+    background-size: cover;
+}
+
+#squirrel{
+    width: 80%;
+    max-width: 250px;
+    min-width: 150px;
+}
+
 #eBook-project{
-    background-image: url("Images/projects/fundo-projeto-eBook.png")
+    background-image: url("images/projects/fundo-projeto-eBook.png");
 }
 
 #eBook{
@@ -268,34 +279,11 @@ section > div > div > p{
 }
 
 #gaoxy-project{
-    background-image: url("Images/projects/fundo-projeto-Gaoxy.png");
+    background-image: url("images/projects/fundo-projeto-Gaoxy.png");
     color: white;
 }
 
 #Gaoxy{
-    width: 80%;
-    max-width: 250px;
-    min-width: 150px;
-}
-
-#RegistroJourney-project{
-    background-image: url("Images/projects/RegistroJourneyBG.png");
-    background-size: cover;
-    color: white;
-}
-
-#RegistroJourney{
-    width: 80%;
-    max-width: 450px;
-    min-width: 200px;
-}
-
-#squirrel-project{
-    background-image: url("Images/projects/fundo-projeto-Squirrel-Bucket.png");
-    background-size: cover;
-}
-
-#squirrel{
     width: 80%;
     max-width: 250px;
     min-width: 150px;
@@ -312,18 +300,18 @@ section > div > div > p{
 }
 
 #Who-Did-That{
-    width: 80%;
+    width: 100%;
     max-width: 350px;
-    min-width: 230px;
+    min-width: 240px;
 }
 
 #who-did-that-project{
-    background-image: url("Images/projects/Who_did_that_background.png");
+    background-image: url("images/projects/Who_did_that_background.png");
     color: white;
 }
 
 #carnivalfamily-project{
-    background-image: url("Images/projects/Carnival_family_background.png");
+    background-image: url("images/projects/Carnival_family_background.png");
     color: white;
     background-size: cover;
 }
@@ -335,7 +323,7 @@ section > div > div > p{
 }
 
 #sun-memories-project {
-    background-image: url("Images/project_pages/Sun_Memories/Sun_Memories_BG.jpg");
+    background-image: url("images/project_pages/Sun_Memories/Sun_Memories_BG.jpg");
     color: black;
     background-size: cover;
     background-position: center;
@@ -348,7 +336,7 @@ section > div > div > p{
 }
 
 #eggIS-project{
-    background-image: url("Images/projects/EggsIS_BG.png");
+    background-image: url("images/projects/EggsIS_BG.png");
     color: white;
     background-position: 150vh;
     font-weight: 600;
@@ -361,20 +349,6 @@ section > div > div > p{
     min-width: 200px;
 }
 
-#KrisKLTJ-project{
-    background-image: url("Images/project_pages/Kris_Kringle_License_To_Jingle/LivingRoomBG.png");
-    color: white;
-    background-position: 150vh;
-    font-weight: 600;
-    background-size: cover;
-    background-position: left;
-}
-
-#Kris_Kringle_License_To_Jingle{
-    width: 80%;
-    max-width: 350px;
-    min-width: 200px;
-}
 
 .projeto > img{
     margin-bottom: 15px;

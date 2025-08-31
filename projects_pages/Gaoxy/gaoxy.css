@@ -6,11 +6,10 @@
 }
 
 body {
-    color: black;
+    color: white;
     padding: 20px;
-    background-image: url("../../Images/project_pages/Sun_Memories/Sun_Memories_BG.jpg");
-   background-position: center;
-   background-attachment: fixed;
+    background-image: url("../../images/projects/fundo-projeto-Gaoxy.png");
+    background-size: contain;
 }
 
 header {
@@ -20,14 +19,14 @@ header {
 
 #logo {
     width: 80%;
-    max-width: 500px;
-    min-width: 300px;
+    max-width: 400px;
+    min-width: 230px;
     margin-bottom: 20px;
 }
 
 h1, h2 {
     text-align: center;
-    color: #FC7300;
+    color: #50C4FF;
 }
 
 p {
@@ -35,15 +34,10 @@ p {
     max-width: 800px;
     margin: 20px auto;
     text-align: center;
-    font-weight: bold;
-}
-
-li {
-    font-weight: bold;
 }
 
 strong{
-    color: #ECA720;
+    color: #50C4FF;
 }
 
 .video-container {
@@ -70,19 +64,39 @@ strong{
     text-align: center;
 }
 
-#Collectibles_img {
+.controls {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    width: 100%;
+    margin-bottom: 40px;
 }
 
-#Collectibles {
-    width: 80%;
-    min-width: 300px;
-    max-width: 512px;
-    margin: auto;
-    margin-bottom: 40px;
+.control {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    max-width: 350px;
+}
+
+#controller img{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#buttons img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#keyboard img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 footer {
@@ -97,7 +111,7 @@ footer {
 
 .detalhamento h3 {
     font-size: 1.3em;
-    color: #FC7300;
+    color: #50C4FF;
     margin-top: 15px;
     text-align: center;
 }
@@ -106,20 +120,6 @@ footer {
     font-size: 1.1em;
     line-height: 1.6;
     margin-bottom: 15px;
-}
-
-#logo_jam {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-#logo_jam img {
-    width: 80%;
-    max-width: 400px;
-    min-width: 280px;
 }
 
 @media (min-width: 1024px) {
@@ -140,7 +140,7 @@ footer {
     }
 
     #logo {
-        width: 65%;
+        width: 50%;
     }
 }
 
@@ -193,7 +193,7 @@ footer {
     padding: 15px 30px;
     font-size: 18px;
     font-weight: bold;
-    background-color: #FCB736;
+    background-color: #50C4FF;
     color: white;
     border-radius: 10px;
     text-shadow: -2px 1px 2px black;
@@ -204,5 +204,5 @@ footer {
 .button:hover {
     transform: scale(1.05);
     box-shadow: 0 2px 8px rgb(255, 255, 255);
-    background-color: #ff9a47;
+    background-color: #1db4ff;
 }
