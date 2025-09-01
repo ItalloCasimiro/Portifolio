@@ -257,17 +257,6 @@ section > div > div > p{
     font-weight: bold;
 }
 
-#squirrel-project{
-    background-image: url("images/projects/fundo-projeto-Squirrel-Bucket.png");
-    background-size: cover;
-}
-
-#squirrel{
-    width: 80%;
-    max-width: 250px;
-    min-width: 150px;
-}
-
 #eBook-project{
     background-image: url("images/projects/fundo-projeto-eBook.png");
 }
@@ -284,6 +273,29 @@ section > div > div > p{
 }
 
 #Gaoxy{
+    width: 80%;
+    max-width: 250px;
+    min-width: 150px;
+}
+
+#RegistroJourney-project{
+    background-image: url("images/projects/RegistroJourneyBG.png");
+    background-size: cover;
+    color: white;
+}
+
+#RegistroJourney{
+    width: 100%;
+    max-width: 250px;
+    min-width: 150px;
+}
+
+#squirrel-project{
+    background-image: url("images/projects/fundo-projeto-Squirrel-Bucket.png");
+    background-size: cover;
+}
+
+#squirrel{
     width: 80%;
     max-width: 250px;
     min-width: 150px;
@@ -349,6 +361,18 @@ section > div > div > p{
     min-width: 200px;
 }
 
+#KrisKLTJ-project{
+    background-image: url("images/project_pages/Kris_Kringle_License_To_Jingle/LivingRoomBG.png");
+    color: white;
+    background-position: left;
+    background-size: cover;
+}
+
+#Kris_Kringle_License_To_Jingle{
+    width: 100%;
+    max-width: 350px;
+    min-width: 200px;
+}
 
 .projeto > img{
     margin-bottom: 15px;
