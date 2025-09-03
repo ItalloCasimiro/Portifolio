@@ -14,7 +14,7 @@ body {
     color: #333;
 }
 
-.container {
+.Container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -25,7 +25,7 @@ header {
     padding: 20px 0;
 }
 
-header .logo h1 {
+header .Logo h1 {
     color: white;
     text-align: center;
     font-size: 2.5rem;
@@ -49,7 +49,7 @@ nav ul li a {
     font-size: 1.2rem;
 }
 
-.menu-toggle {
+.ToggleMenu {
     display: none;
     background-color: #007bff;
     border: none;
@@ -83,29 +83,31 @@ section {
     padding: 60px 0;
 }
 
-.section-profile{
+.ProfileSection{
     position: relative;
     width: 100%;
     height: 99vh;
     display: flex;
     justify-content: center;
     z-index: 2;
-    background: url('images/sobre/background.png');
+    background: url('Images/About/Background.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: bold;
 }
 
-#text-sobre{
+#TextAbout{
     color: white;
 }
 
-.perfil img {
+.Profile img {
     position: absolute;
     top: 64%;
     left: 50%;
@@ -115,7 +117,7 @@ h2 {
     z-index: 1;
 }
 
-.text{
+.Text{
     position: absolute;
     top: 70%;
     left: 50%;
@@ -127,12 +129,12 @@ h2 {
     z-index: 2;
 }
 
-.habilidades {
+.Skills {
     display: flex;
     justify-content: space-around;
 }
 
-.habilidade {
+.Skill {
     text-align: center;
     max-width: 300px;
     background-color: #007bff;
@@ -143,78 +145,67 @@ h2 {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.habilidade:hover{
+.Skill:hover{
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
   
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-  }
-  
-  .technologies {
+.Technologies {
     background-color: #f4f4f4;
     color: black;
     padding: 40px 0;
     text-align: center;
-  }
+}
   
-  .technologies h2 {
+.Technologies h2 {
     font-size: 2rem;
     margin-bottom: 30px;
-  }
+}
   
-  .tech-icons {
+.TechIcons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-  }
-  
-  .tech-icon {
+}
+
+.TechIcon {
     width: 120px;
     height: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  
-  .tech-icon img {
+}
+
+.TechIcon img {
     width: 80px;
     height: 80px;
     margin-bottom: 10px;
     transition: transform 0.3s;
-  }
-  
-  .tech-icon p {
+}
+
+.TechIcon p {
     font-size: 1rem;
     color: black;
-  }
-  
-  .tech-icon:hover img {
-    transform: scale(1.1);
-  }
-  
-  .tech-icon:hover p {
-    color: #007bff;
-  }
+}
 
-.projetos {
+.TechIcon:hover img {
+    transform: scale(1.1);
+}
+
+.TechIcon:hover p {
+    color: #007bff;
+}
+
+.Projects {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.projeto {
+.Project {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -224,7 +215,7 @@ h2 {
     flex-basis: 30%;
 }
 
-.projeto h3 {
+.Project h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
@@ -257,8 +248,8 @@ section > div > div > p{
     font-weight: bold;
 }
 
-#eBook-project{
-    background-image: url("images/projects/fundo-projeto-eBook.png");
+#eBookProject{
+    background-image: url("Images/Projects/GameDesign_OProcessoDeCriaçãoDeUmJogo/Background.png");
 }
 
 #eBook{
@@ -267,8 +258,8 @@ section > div > div > p{
     min-width: 150px;
 }
 
-#gaoxy-project{
-    background-image: url("images/projects/fundo-projeto-Gaoxy.png");
+#GaoxyProject{
+    background-image: url("Images/Projects/Gaoxy/Background.png");
     color: white;
 }
 
@@ -278,8 +269,8 @@ section > div > div > p{
     min-width: 150px;
 }
 
-#RegistroJourney-project{
-    background-image: url("images/projects/RegistroJourneyBG.png");
+#RegistroJourneyProject{
+    background-image: url("Images/Projects/RegistroJourney/Background.png");
     background-size: cover;
     color: white;
 }
@@ -290,91 +281,91 @@ section > div > div > p{
     min-width: 150px;
 }
 
-#squirrel-project{
-    background-image: url("images/projects/fundo-projeto-Squirrel-Bucket.png");
+#SquirrelBucketProject{
+    background-image: url("Images/Projects/SquirrelBucket/Background.png");
     background-size: cover;
 }
 
-#squirrel{
+#SquirrelBucket{
     width: 80%;
     max-width: 250px;
     min-width: 150px;
 }
 
-#Cube{
+#CUBEProject{
+    background-image: linear-gradient(to top, black -10%, darkgray 10%, lightgray 15%, white 100%);
+}
+
+#CUBE{
     width: 80%;
     max-width: 350px;
     min-width: 200px;
 }
 
-#cube-project{
-    background-image: linear-gradient(to top, black -10%, darkgray 10%, lightgray 15%, white 100%);
+#WhoDidThatProject{
+    background-image: url("Images/Projects/WhoDidThat/Background.png");
+    color: white;
 }
 
-#Who-Did-That{
+#WhoDidThat{
     width: 100%;
     max-width: 350px;
     min-width: 240px;
 }
 
-#who-did-that-project{
-    background-image: url("images/projects/Who_did_that_background.png");
-    color: white;
-}
-
-#carnivalfamily-project{
-    background-image: url("images/projects/Carnival_family_background.png");
+#CarnivalFamilyProject{
+    background-image: url("Images/Projects/CarnivalFamily/Background.png");
     color: white;
     background-size: cover;
 }
 
-#Carnival_Family{
+#CarnivalFamily{
     width: 80%;
     max-width: 350px;
     min-width: 200px;
 }
 
-#sun-memories-project {
-    background-image: url("images/project_pages/Sun_Memories/Sun_Memories_BG.jpg");
+#SunMemoriesProject {
+    background-image: url("Images/Projects/SunMemories/Background.jpg");
     color: black;
     background-size: cover;
     background-position: center;
 }
 
-#Sun_Memories {
+#SunMemories {
     width: 80%;
     max-width: 350px;
     min-width: 200px;
 }
 
-#eggIS-project{
-    background-image: url("images/projects/EggsIS_BG.png");
+#EggsIncubationStationProject{
+    background-image: url("Images/Projects/EggsIncubationStation/Background.png");
     color: white;
     background-position: 150vh;
     font-weight: 600;
     background-size: cover;
 }
 
-#Eggs_Incubation_Station{
+#EggsIncubationStation{
     width: 100%;
     max-width: 350px;
     min-width: 200px;
 }
 
-#KrisKLTJ-project{
-    background-image: url("images/project_pages/Kris_Kringle_License_To_Jingle/LivingRoomBG.png");
+#KrisKLTJProject{
+    background-image: url("Images/Projects/KrisKringle_LicenseToJingle/Background.png");
     color: white;
     background-position: left;
     background-size: cover;
 }
 
-#Kris_Kringle_License_To_Jingle{
+#KrisKringle_LicenseToJingle{
     width: 100%;
     max-width: 350px;
     min-width: 200px;
 }
 
-.projeto > img{
+.Project > img{
     margin-bottom: 15px;
 }
 
@@ -382,19 +373,19 @@ ul{
     list-style-type: none;
 }
 
-#certificados {
+#Certificates {
     background-color: #f4f4f4;
     padding: 40px 0;
 }
 
-.certificados {
+.Certificates {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
 }
 
-.certificado {
+.Certificate {
     background-color: #eaeaea;
     padding: 20px;
     border-radius: 8px;
@@ -403,27 +394,27 @@ ul{
     text-align: center;
 }
 
-.certificado img {
+.Certificate img {
     width: 70%;
     max-width: 400px;
     height: auto;
     margin-bottom: 15px;
 }
 
-.certificado h3 {
+.Certificate h3 {
     margin-bottom: 10px;
 }
 
-.certificado p {
+.Certificate p {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.certificado a {
+.Certificate a {
     font-weight: bold;
 }
 
-#RedirectionButton_black{
+#RedirectionButton_Black{
     padding: 10px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -435,12 +426,12 @@ ul{
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-#RedirectionButton_black:hover{
+#RedirectionButton_Black:hover{
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-#RedirectionButton_white{
+#RedirectionButton_White{
     padding: 10px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -452,31 +443,23 @@ ul{
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-#RedirectionButton_white:hover{
+#RedirectionButton_White:hover{
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
 }
 
-#contato {
+#Contact {
     padding: 40px 0;
     background-color: #f4f4f4;
 }
 
-.container {
+.Container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 30px;
-    font-weight: bold;
-}
-
-.contato-links {
+.ContactLinks {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -484,7 +467,7 @@ h2 {
     margin-top: 20px;
 }
 
-.contato-item {
+.ContactItem {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -499,12 +482,12 @@ h2 {
     text-align: left;
 }
 
-.contato-item:hover {
+.ContactItem:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.social-icon {
+.SocialIcon {
     width: 35px;
     height: 35px;
     margin-right: 15px;
@@ -514,31 +497,31 @@ h2 {
 /*responsividade*/
 
 @media(min-width: 1024px){
-    .habilidades{
+    .Skills{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
     }
-    .perfil img{
+    .Profile img{
         top: 59%;
         left: 80%;
         width: 400px;
     }
-    .text{
+    .Text{
         top: 65%;
         left: 30%;
         width: 600px;
     }
-    #text-sobre{
+    #TextAbout{
         margin-top: 20px;
     }
 }
 
 @media (max-width: 1024px){
-    .habilidades{
+    .Skills{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
-    .text{
+    .Text{
         top: 85%;
         font-size: 1.5em;
         box-sizing: border-box;
@@ -546,7 +529,7 @@ h2 {
         text-align: center;
         text-shadow: black 2px 3px;
     }
-    .perfil img{
+    .Profile img{
         max-width: 450px;
         top: 67%;
         left: 50%;
@@ -564,7 +547,7 @@ h2 {
         display: block;
     }
 
-    .menu-toggle {
+    .ToggleMenu {
         display: block;
     }
 
@@ -572,87 +555,87 @@ h2 {
         margin: 10px 0;
     }
 
-    .habilidades {
+    .Skills {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .projetos {
+    .Projects {
         flex-direction: column;
     }
 
-    .projeto {
+    .Project {
         max-width: 100%;
     }
 
-    .tech-icons {
+    .TechIcons {
         gap: 15px;
-      }
-    
-      .tech-icon {
+    }
+
+    .TechIcon {
         width: 100px;
         height: 100px;
-      }
-    
-      .tech-icon img {
+    }
+
+    .TechIcon img {
         width: 80px;
         height: 80px;
-      }
-    
-      .technologies h2 {
-        font-size: 1.5rem;
-      }
+    }
 
-    .certificados {
+    .Technologies h2 {
+        font-size: 1.5rem;
+    }
+
+    .Certificates {
         flex-direction: column;
         align-items: center;
     }
 
-    .certificado {
+    .Certificate {
         flex: 1 1 100%;
         max-width: 100%;
     }
 
-    .contato-links {
+    .ContactLinks {
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
 
-    .contato-item {
+    .ContactItem {
         width: 90%;
     }
 }
 
 @media (max-width: 480px) {
-    .habilidades{
+    .Skills{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    .tech-icons {
+    .TechIcons {
         gap: 10px;
-      }
-    
-      .tech-icon {
+    }
+
+    .TechIcon {
         width: 80px;
         height: 80px;
-      }
-    
-      .tech-icon img {
+    }
+
+    .TechIcon img {
         width: 60px;
         height: 60px;
-      }
-    
-      .technologies h2 {
-        font-size: 1.2rem;
-      }
+    }
 
-    .contato-item {
+    .Technologies h2 {
+        font-size: 1.2rem;
+    }
+
+    .ContactItem {
         width: 100%;
         text-align: center;
     }
 
-    .social-icon {
+    .SocialIcon {
         width: 30px;
         height: 30px;
     }

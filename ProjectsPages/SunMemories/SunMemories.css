@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: black;
+    padding: 20px;
+    background-image: url("../../Images/Projects/SunMemories/Background.jpg");
+   background-position: center;
+   background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#Logo {
+    width: 80%;
+    max-width: 500px;
+    min-width: 300px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #FC7300;
+}
+
+p {
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+li {
+    font-weight: bold;
+}
+
+strong{
+    color: #ECA720;
+}
+
+.VideoContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.VideoContainer iframe {
+    width: 80%;
+    max-width: 720px;
+    height: 400px;
+}
+
+.Contributions {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.Contributions li {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#Collectibles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#CollectiblesIMG {
+    width: 80%;
+    min-width: 300px;
+    max-width: 512px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.Details {
+    margin: 20px;
+}
+
+.Details h3 {
+    font-size: 1.3em;
+    color: #FC7300;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.Details p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+#LogoJam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#LogoJam img {
+    width: 80%;
+    max-width: 400px;
+    min-width: 280px;
+}
+
+@media (min-width: 1024px) {
+    .Details p {
+        width: 45%;
+    }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .VideoContainer iframe {
+        width: 100%;
+    }
+
+    #Logo {
+        width: 65%;
+    }
+}
+
+@media (min-width: 768px) {
+    .Details {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+    }
+
+    .Details h3 {
+        width: 100%; /* Garantir que os títulos ocupem toda a linha */
+        margin-top: 30px;
+    }
+
+    .Details p {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .VideoContainer iframe {
+        height: 250px;
+    }
+}
+
+.ButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.ButtonContainer a {
+    text-decoration: none;
+}
+
+.Button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #FCB736;
+    color: white;
+    border-radius: 10px;
+    text-shadow: -2px 1px 2px black;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 8px rgb(255, 255, 255);
+    background-color: #ff9a47;
+}
