@@ -364,6 +364,20 @@ section > div > div > p{
     min-width: 200px;
 }
 
+#TGTBaTPaperworkProject{
+    background-image: url("Images/Projects/TheGoodTheBadAndThePaperwork/ProjectBG.png");
+    color: black;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+}
+
+#TheGoodTheBadAndThePaperwork{
+    width: 90%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
 .Project > img{
     margin-bottom: 15px;
 }
