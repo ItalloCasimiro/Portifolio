@@ -156,6 +156,8 @@ h2 {
     color: black;
     padding: 40px 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
   
 .Technologies h2 {
@@ -378,6 +380,26 @@ section > div > div > p{
     min-width: 200px;
 }
 
+#Word_n_TowerProject{
+    background-image: url("Images/Projects/Word_n_Tower/ProjectBG.png");
+    color: black;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+}
+
+#Word_n_Tower{
+    width: 90%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
+#TheGoodTheBadAndThePaperwork{
+    width: 90%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
 .Project > img{
     margin-bottom: 15px;
 }
@@ -526,6 +548,9 @@ ul{
     }
     #TextAbout{
         margin-top: 20px;
+    }
+    .TechIcons{
+        gap: 25px;
     }
 }
 
