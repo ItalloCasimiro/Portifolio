@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.Container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #007bff;
+    padding: 20px 0;
+}
+
+header .Logo h1 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+section {
+    padding: 30px 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: bold;
+}
+
+.Projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Project {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex-basis: 30%;
+}
+
+.Project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section > div > div > img{
+    margin-bottom: 40px;
+}
+
+section > div > div > p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#eBookProject{
+    background-image: url("../../Images/Projects/GameDesign_OProcessoDeCriaçãoDeUmJogo/Background.png");
+}
+
+#eBook{
+    width: 80%;
+    max-width: 250px;
+    min-width: 150px;
+}
+
+#GaoxyProject{
+    background-image: url("../../Images/Projects/Gaoxy/Background.png");
+    color: white;
+}
+
+#Gaoxy{
+    width: 80%;
+    max-width: 250px;
+    min-width: 150px;
+}
+
+#RegistroJourneyProject{
+    background-image: url("../../Images/Projects/RegistroJourney/Background.png");
+    background-size: cover;
+    color: white;
+}
+
+#RegistroJourney{
+    width: 100%;
+    max-width: 250px;
+    min-width: 150px;
+}
+
+#SquirrelBucketProject{
+    background-image: url("../../Images/Projects/SquirrelBucket/Background.png");
+    background-size: cover;
+}
+
+#SquirrelBucket{
+    width: 80%;
+    max-width: 250px;
+    min-width: 150px;
+}
+
+#CUBEProject{
+    background-image: linear-gradient(to top, black -10%, darkgray 10%, lightgray 15%, white 100%);
+}
+
+#CUBE{
+    width: 80%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
+#WhoDidThatProject{
+    background-image: url("../../Images/Projects/WhoDidThat/Background.png");
+    color: white;
+}
+
+#WhoDidThat{
+    width: 100%;
+    max-width: 350px;
+    min-width: 240px;
+}
+
+#CarnivalFamilyProject{
+    background-image: url("../../Images/Projects/CarnivalFamily/Background.png");
+    color: white;
+    background-size: cover;
+}
+
+#CarnivalFamily{
+    width: 80%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
+#SunMemoriesProject {
+    background-image: url("../../Images/Projects/SunMemories/Background.jpg");
+    color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+#SunMemories {
+    width: 80%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
+#EggsIncubationStationProject{
+    background-image: url("../../Images/Projects/EggsIncubationStation/Background.png");
+    color: white;
+    background-position: 150vh;
+    font-weight: 600;
+    background-size: cover;
+}
+
+#EggsIncubationStation{
+    width: 100%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
+#KrisKLTJProject{
+    background-image: url("../../Images/Projects/KrisKringle_LicenseToJingle/Background.png");
+    color: white;
+    background-position: left;
+    background-size: cover;
+}
+
+#KrisKringle_LicenseToJingle{
+    width: 100%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
+#TGTBaTPaperworkProject{
+    background-image: url("../../Images/Projects/TheGoodTheBadAndThePaperwork/ProjectBG.png");
+    color: black;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+}
+
+#TheGoodTheBadAndThePaperwork{
+    width: 90%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
+#TheGoodTheBadAndThePaperwork{
+    width: 90%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
+#Word_n_TowerProject{
+    background-image: url("../../Images/Projects/Word_n_Tower/ProjectBG.png");
+    color: black;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+}
+
+#Word_n_Tower{
+    width: 90%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
+#QuacGeddonProject{
+    background-image: url("../../Images/Projects/QuacGeddon/Background.png");
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+#QuacGeddon{
+    width: 90%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
+.Project > img{
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#RedirectionButton_Black{
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#RedirectionButton_Black:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#RedirectionButton_White{
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#RedirectionButton_White:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+/*responsividade*/
+
+@media (max-width: 1024px){
+    .Projects {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .Project {
+        max-width: 100%;
+    }
+}
