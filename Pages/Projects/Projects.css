@@ -256,6 +256,34 @@ section > div > div > p{
     min-width: 200px;
 }
 
+#GallopToyProject{
+    background-image: url("../../Images/Projects/GallopToy/Background.png");
+    color: black;
+    font-weight: bold;
+    background-position: center;
+    background-size: cover;
+}
+
+#GallopToy{
+    width: 90%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
+#BSSI2BitsProject{
+    background-color: #120000;
+    color: #FF6F00;
+    font-weight: bold;
+    background-position: center;
+    background-size: cover;
+}
+
+#BSSI2Bits{
+    width: 90%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
 .Project > img{
     margin-bottom: 15px;
 }
