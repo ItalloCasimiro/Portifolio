@@ -49,6 +49,43 @@ nav ul li a {
     font-size: 1.2rem;
 }
 
+.LanguageSwitcher {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 115px;
+    background: #1e1e1e;
+    border-radius: 999px;
+    padding: 4px;
+    gap: 4px;
+}
+
+.LanguageSwitcher button {
+    border: none;
+    background: transparent;
+    color: #aaa;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.LanguageSwitcher button:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+header .LanguageSwitcher.active {
+    display: flex;
+    justify-content: center;
+}
+
+.LanguageSwitcher button.active {
+    background: #007bff;
+    color: white;
+}
+
 .ToggleMenu {
     display: none;
     background-color: #007bff;
@@ -67,6 +104,7 @@ nav ul {
     justify-content: center;
     list-style: none;
     padding: 0;
+    margin-top: 20px;
 }
 
 nav ul li {
@@ -595,6 +633,11 @@ ul{
 }
 
 @media (max-width: 768px) {
+    .LanguageSwitcher {
+        display: none;
+        justify-content: center;
+    }
+
     nav ul {
         display: none;
         width: 100%;

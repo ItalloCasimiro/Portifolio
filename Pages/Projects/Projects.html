@@ -7,46 +7,47 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Projetos Itallo Casimiro</title>
     <link rel="stylesheet" href="Projects.css">
+    <script src="Projects.js" defer></script>
 </head>
 <body>
     <header>
         <div class="Container">
             <div class="Logo">
-                <h1>Meus Projetos</h1>
+                <h1 id="docTitle">Meus Projetos</h1>
             </div>
         </div>
     </header>
     <section id="Projects" class="Section">
         <div class="Container">
-            <h2>Projetos Pessoais</h2>
+            <h2 id="personalProjectsTitle">Projetos Pessoais</h2>
             <div class="Projects">
                 <div class="Project" id="eBookProject">
                     <img src="../../Images/Projects/GameDesign_OProcessoDeCriaçãoDeUmJogo/Capa.png" id="eBook">
-                    <p>Meu eBook, Game Design, o processo de criação de um jogo, ensina os fundamentos e introduz o game design gratuitamente<br><br><a href="https://itallocasimiro.github.io/Game-Design-eBook" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_Black">Acessar o site do eBook</button></a></p>
+                    <p><div id="eBookDescription">Meu eBook, Game Design, o processo de criação de um jogo, ensina os fundamentos e introduz o game design gratuitamente</div><br><br><a href="https://itallocasimiro.github.io/Game-Design-eBook" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_Black"><div id="acess_eBookWebsite">Acessar o site do eBook</div></button></a></p>
                 </div>
                 <div class="Project" id="GaoxyProject">
                     <img src="../../Images/Projects/Gaoxy/Logo.png" id="Gaoxy">
-                    <p>Gaoxy é um jogo clássico de nave do gênero Shoot 'em Up baseado em Space Invaders, onde o jogador deve sobreviver aos inimigos que surgem atirando projéteis no jogador <br>
-                    O objetivo é sobreviver e eliminar o maior número possível de inimigos e conseguir bater o recorde pessoal de pontuação<br><br><a href="https://itallo-casimiro.itch.io/gaoxy" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Acessar a página da Itch.io</button></a></p>
+                    <p><div id="gaoxyDescription1">Gaoxy é um jogo clássico de nave do gênero Shoot 'em Up baseado em Space Invaders, onde o jogador deve sobreviver aos inimigos que surgem atirando projéteis no jogador</div><br>
+                    <div id="gaoxyDescription2">O objetivo é sobreviver e eliminar o maior número possível de inimigos e conseguir bater o recorde pessoal de pontuação</div><br><br><a href="https://itallo-casimiro.itch.io/gaoxy" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div class="acessItchioGamePage">Acessar a página da Itch.io</div></button></a></p>
                 </div>
                 <div class="Project" id="RegistroJourneyProject">
                     <img src="../../Images/Projects/RegistroJourney/Logo.png" id="RegistroJourney">
-                    <p>O Registro Journey é uma newsletter onde eu posto semanalmente (todas as quartas-feiras) um registro falando sobre o que fiz na semana, no contexto de desenvolvimento de jogos.<br><br><p>O objetivo dessa newsletter é deixar registrado toda a minha jornada até que eu consiga realizar o meu objetivo de vida, para que eu possa ler tudo novamente e ver o meu progresso ao longo dos anos.</p><br><br><a href="https://itallocasimiro.substack.com/" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Ler Registros</button></a></p>
+                    <p id="registroJourneyDescription1">O Registro Journey é uma newsletter onde eu posto semanalmente (todas as quartas-feiras) um registro falando sobre o que fiz na semana no contexto de desenvolvimento de jogos.</p><br><br><p id="registroJourneyDescription2">O objetivo dessa newsletter é deixar registrado toda a minha jornada até que eu consiga realizar o meu objetivo de vida, para que eu possa ler tudo novamente e ver o meu progresso ao longo dos anos.</p><br><br><a href="https://itallocasimiro.substack.com/" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div id="readRegisters">Ler Registros</div></button></a></p>
                 </div>
                 <div class="Project" id="SquirrelBucketProject">
                     <img src="../../Images/Projects/SquirrelBucket/Logo.png" id="SquirrelBucket">
-                    <p>Squirrel Bucket é um jogo 2D Catcher que se passa em uma única tela em que o jogador, que controla um esquilo com um barril, deve pegar as nozes que caem do céu sem deixa-las cair no chão<br>
-                    O jogo se baseia em quebrar o recorde pessoal a cada partida, sendo esse recorde o número de nozes coletadas na partida anterior<br><br><a href="https://itallo-casimiro.itch.io/squirrel-bucket" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Acessar a página da Itch.io</button></a></p>
+                    <p><div id="squirrelBucketDescription1">Squirrel Bucket é um jogo 2D catcher que se passa em uma única tela em que o jogador, que controla um esquilo com um barril, deve pegar as nozes que caem do céu sem deixa-las cair no chão</div><br>
+                   <div id="squirrelBucketDescription2">O jogo se baseia em quebrar o recorde pessoal a cada partida, sendo esse recorde o número de nozes coletadas na partida anterior</div><br><br><a href="https://itallo-casimiro.itch.io/squirrel-bucket" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div class="acessItchioGamePage">Acessar a página da Itch.io</div></button></a></p>
                 </div>
                 <div class="Project" id="CUBEProject">
                     <img src="../../Images/Projects/CUBE/Logo.png" id="CUBE">
-                    <p>C.U.B.E é um jogo de quebra-cabeça de visão isométrica preto e branco onde você tem que construir um item. Seu objetivo é usar os materiais ao seu redor, refiná-los e junta-los para construir o item.<br> O jogo usa um sistema de níveis onde cada nível tem um item específico para construir. Você só tem que pensar na solução e construí-lo!<br><br>
-                    <a href="https://itallo-casimiro.itch.io/cube" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_Black">Acessar a página da Itch.io</button></a>
+                    <p><div id="cubeDescription1">C.U.B.E é um jogo de quebra-cabeça de visão isométrica preto e branco onde você tem que construir um item. Seu objetivo é usar os materiais ao seu redor, refiná-los e junta-los para construir o item.</div><br><div id="cubeDescription2">O jogo usa um sistema de níveis onde cada nível tem um item específico para construir. Você só tem que pensar na solução e construí-lo!</div><br><br>
+                    <a href="https://itallo-casimiro.itch.io/cube" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_Black"><div class="acessItchioGamePage">Acessar a página da Itch.io</div></button></a>
                 </div>
                 <div class="Project" id="WhoDidThatProject">
                     <img src="../../Images/Projects/WhoDidThat/Logo.png" id="WhoDidThat">
-                    <p>Who Did That? É um jogo de puzzle 2D onde o jogador controla um detetive novato da agência WDT que recebe seu primeiro caso de assassinato.<br> O jogador deve reunir, analisar e tirar conclusões através de documentos e informações importantes que receberá durante a gameplay.<br>O jogo possui mais de um modo de jogo, entre eles temos, por exemplo, o modo história, com uma história curta no qual o jogador recebe um caso de assassinato da vítima Martha Grayson e deve descobrir o culpado, e entre outros diversos modos de jogo.<br><br><br>
-                    <a href="https://itallo-casimiro.itch.io/who-did-that" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Acessar a página da Itch.io</button></a>
+                    <p><div id="whoDidThatDescription1">"Who Did That?" É um jogo de puzzle 2D onde o jogador controla um detetive novato da agência WDT que recebe seu primeiro caso de assassinato.</div><br><div id="whoDidThatDescription2">Você deve reunir, analisar e tirar conclusões através de documentos e informações importantes que você receberá durante a gameplay.</div><br><div id="whoDidThatDescription3">O jogo possui mais de um modo de jogo, entre eles temos, por exemplo, o modo história, com uma história curta no qual o jogador recebe um caso de assassinato da vítima Martha Grayson e deve descobrir o culpado, e entre outros diversos modos de jogo.</div><br><br><br>
+                    <a href="https://itallo-casimiro.itch.io/who-did-that" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div class="acessItchioGamePage">Acessar a página da Itch.io</div></button></a>
                 </div>
             </div>
         </div>
@@ -58,86 +59,83 @@
             <div class="Projects">
                 <div class="Project" id="CarnivalFamilyProject">
                     <img src="../../Images/Projects/CarnivalFamily/Logo.png" id="CarnivalFamily">
-                    <p>Carnival Family é um jogo do genêro time management (gerenciamento de tempo) onde o jogador controla um personagem que acorda no dia 28 de fevereiro e recebe uma ligação da sua sogra dizendo que vai levar a família para sua casa para comemorar o carnaval <br>
-                    O objetivo é completar todas as tarefas antes que a família chegue até a casa<br><br>
-                    Carnival Family foi desenvolvido especialemente para a <a href="https://itch.io/jam/ctrl-alt-jam-carnaval-2025" style="color: #ECA720;font-weight: bold;">Ctrl Alt Jam - Edição de carnaval 2025</a><br><br>
-                    <h3>Contribuições</h3> 
+                    <p><div id="carnivalFamilyDescription1">Carnival Family é um jogo do genêro gerenciamento de tempo onde o jogador controla um personagem que acorda no dia 28 de fevereiro e recebe uma ligação da sua sogra dizendo que vai levar a família para sua casa para comemorar o carnaval</div><br>
+                    <div id="carnivalFamilyDescription2">O objetivo é completar todas as tarefas antes que a família chegue até a casa</div><br><br>
+                    <div id="carnivalFamilyDevelopedFor">Carnival Family foi desenvolvido especialemente para a </div><a href="https://itch.io/jam/ctrl-alt-jam-carnaval-2025" style="color: #ECA720;font-weight: bold;">Ctrl Alt Jam - Edição de carnaval 2025</a><br><br>
+                    <h3 class="contributionsTitle">Contribuições</h3> 
                     <ul>
-                        <li>Game Design</li>
-                        <li>UI/UX</li>
-                        <li>Documentação GDD</li>
-                        <li>Personalização da página na Itch.io</li>
+                        <li class="contributionGameDesign">Game Design</li>
+                        <li class="contributionUIDesign">UI/UX design</li>
+                        <li class="contributionGDDDocumentation">Documentação GDD</li>
+                        <li class="contributionGamePageStyling">Personalização da página na Itch.io</li>
                     </ul>
-                    <br><br><a href="https://tnara.itch.io/carnaval-family" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Acessar a página da Itch.io</button></a></p>
+                    <br><br><a href="https://tnara.itch.io/carnaval-family" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div class="acessItchioGamePage">Acessar a página da Itch.io</div></button></a></p>
                 </div>
                 <div class="Project" id="SunMemoriesProject">
                     <img src="../../Images/Projects/SunMemories/Logo.png" id="SunMemories">
-                    <p>Sun Memories é um jogo 3D no estilo retro (consoles antigos) que conta a história de Janne, uma garota residente de uma pequena vila e recém formada no ensino médio que está em busca de um caminho para seguir no futuro antes do fim das férias de verão<br>
-                   Janne deve coletar memórias de sua vila explorando, falando com os residentes e... sonhando<br><br>
-                   Sun Memories foi desenvolvido especialemente para a <a href="https://itch.io/jam/32bitjam-summer-dreams" style="color: #ECA720;font-weight: bold;">32BitsJam - "Summer Dreams"</a><br><br>
-                    <h3>Contribuições</h3> 
+                    <p><div id="sunMemoriesDescription1">Sun Memories é um jogo 3D no estilo retro (consoles antigos) que conta a história de Janne, uma garota residente de uma pequena vila e recém formada no ensino médio que está em busca de um caminho para seguir no futuro antes do fim das férias de verão</div><br>
+                   <div id="sunMemoriesDescription2">Janne deve coletar memórias de sua vila explorando, falando com os residentes e... sonhando</div><br><br>
+                   <div id="sunMemoriesDevelopedFor">Sun Memories foi desenvolvido especialemente para a </div><a href="https://itch.io/jam/32bitjam-summer-dreams" style="color: #ECA720;font-weight: bold;">32BitsJam - "Summer Dreams"</a><br><br>
+                    <h3 class="contributionsTitle">Contribuições</h3> 
                     <ul>
                         <li>Game Design</li>
                         <li>Puzzles</li>
                         <li>UI/UX</li>
-                        <li>Documentação GDD</li>
-                        <li>Diálogos</li>
-                        <li>Personalização da página na Itch.io</li>
+                        <li class="contributionGDDDocumentation">Documentação GDD</li>
+                        <li class="contributionDialogues">Diálogos</li>
+                        <li class="contributionGamePageStyling">Personalização da página na Itch.io</li>
                     </ul>
-                    <br><br><a href="https://eelshep.itch.io/sun-memories" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_Black">Acessar a página da Itch.io</button></a></p>
+                    <br><br><a href="https://eelshep.itch.io/sun-memories" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_Black"><div class="acessItchioGamePage">Acessar a página da Itch.io</div></button></a></p>
                 </div>
                 <div class="Project" id="EggsIncubationStationProject">
                     <img src="../../Images/Projects/EggsIncubationStation/Logo.png" id="EggsIncubationStation">
-                    <p>Eggs Incubation Station é um jogo de simulação onde o jogador gerencia uma estação de incubação de ovos, cuidando das necessidades dos ovos de criatura que estão prestes a chocar.<br>O objetivo é descobrir todas as 12 criaturas diferentes do jogo e gerenciar as incubadoras.<br><br>
-                   Eggs Incubation Station foi desenvolvido especialemente para a <a href="https://itch.io/jam/mini-jame-gam-45" style="color: #FEC844;font-weight: bold;">Mini Jame Gam #45</a><br><br>
-                    <h3>Contribuições</h3> 
+                    <p><div id="eggsIncubationStationDescription1">Eggs Incubation Station é um jogo de simulação onde o jogador gerencia uma estação de incubação de ovos, cuidando das necessidades dos ovos de criatura que estão prestes a chocar.</div><br><div id="eggsIncubationStationDescription2">O objetivo é descobrir todas as 12 criaturas diferentes do jogo e gerenciar as incubadoras.</div><br><br>
+                   <div id="eggsIncubationStationDevelopedFor">Eggs Incubation Station foi desenvolvido especialemente para a </div><a href="https://itch.io/jam/mini-jame-gam-45" style="color: #FEC844;font-weight: bold;">Mini Jame Gam #45</a><br><br>
+                    <h3 class="contributionsTitle">Contribuições</h3> 
                     <ul>
                         <li>Lead Game Design</li>
                         <li>UI/UX</li>
-                        <li>Personalização da página na Itch.io</li>
+                        <li class="contributionGamePageStyling">Personalização da página na Itch.io</li>
                     </ul>
                     <br><br><a href="https://chris-gw.itch.io/egg-incubation-station" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Acessar a página da Itch.io</button></a></p>
                 </div>
                 <div class="Project" id="KrisKLTJProject">
                     <img src="../../Images/Projects/KrisKringle_LicenseToJingle/Logo.png" id="KrisKringle_LicenseToJingle">
-                    <p>"Kris Kringle License to Jingle!" É um jogo do gênero stealth 2D onde o jogador controla o Papai Noel, e sua missão é entregar um presente para uma garotinha sem ser pego.<br><br>
-                    "Kris Kringle License to Jingle!" foi desenvolvido especialemente para a <a href="https://itch.io/jam/brackeys-14" style="color: #007bff;font-weight: bold;">Brackeys Game Jam 2025.2</a><br><br>
-                    <h3>Contribuições</h3> 
+                    <p><div id="krisKringle_LicenseToJingleDescription1">"Kris Kringle License to Jingle!" É um jogo do gênero stealth 2D onde o jogador controla o Papai Noel, e sua missão é entregar um presente para uma garotinha sem ser pego.</div><br><br>
+                    <div id="krisKringle_LicenseToJingleDevelopedFor">"Kris Kringle License to Jingle!" foi desenvolvido especialemente para a </div><a href="https://itch.io/jam/brackeys-14" style="color: #007bff;font-weight: bold;">Brackeys Game Jam 2025.2</a><br><br>
+                    <h3 class="contributionsTitle">Contribuições</h3> 
                     <ul>
-                        <li>Programação (Lead)</li>
-                        <li>Organização de assets</li>
-                        <li>Estilização geral</li>
+                        <li class="contributionProgramming">Programação</li>
                         <li>UI/UX design</li>
-                        <li>Personalização da página na Itch.io</li>
+                        <li class="contributionGamePageStyling">Personalização da página na Itch.io</li>
                     </ul>
-                    <br><br><a href="https://servorgul.itch.io/kris-kringle-license-to-jingle" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Acessar a página da Itch.io</button></a></p>
+                    <br><br><a href="https://servorgul.itch.io/kris-kringle-license-to-jingle" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div class="acessItchioGamePage">Acessar a página da Itch.io</div></button></a></p>
                 </div>
                 <div class="Project" id="TGTBaTPaperworkProject">
                     <img src="../../Images/Projects/TheGoodTheBadAndThePaperwork/Logo.png" id="TheGoodTheBadAndThePaperwork">
-                    <p>"The Good, The Bad and The Paperwork" é um jogo onde você controla o xerife de uma pequena cidadela, seu objetivo é avaliar os documentos dos cidadãos, garantir que tudo esteja em ordem e permitir (ou não) a entrada dos cidadãos.<br><br>
-                    "The Good, The Bad and The Paperwork" foi desenvolvido especialemente para a <a href="https://itch.io/jam/cross-worlds-game-jam-2025" style="color: #664F2B;font-weight: bold;">Cross Worlds Game Jam 2025</a><br><br>
-                    <h3>Contribuições</h3> 
+                    <p><div id="theGoodTheBadAndThePaperworkDescription1">"The Good, The Bad and The Paperwork" é um jogo onde você controla o xerife de uma pequena cidadela, seu objetivo é avaliar os documentos dos cidadãos, garantir que tudo esteja em ordem e permitir (ou não) a entrada dos cidadãos.</div><br><br>
+                    <div id="theGoodTheBadAndThePaperworkDevelopedFor">"The Good, The Bad and The Paperwork" foi desenvolvido especialemente para a </div><a href="https://itch.io/jam/cross-worlds-game-jam-2025" style="color: #664F2B;font-weight: bold;">Cross Worlds Game Jam 2025</a><br><br>
+                    <h3 class="contributionsTitle">Contribuições</h3> 
                     <ul>
                         <li>Game design</li>
-                        <li>Concept de NPCs</li>
-                        <li>Programação</li>
-                        <li>Diálogos</li>
-                        <li>Criação e design da logo</li>
-                        <li>Design de UI</li>
-                        <li>Criação dos menus</li>
-                        <li>Personalização da página na Itch.io</li>
+                        <li class="contributionNPCConcept">Concept de NPCs</li>
+                        <li class="contributionProgramming">Programação</li>
+                        <li class="contributionDialogues">Diálogos</li>
+                        <li class="contributionCreationAndDesignOfTheLogo">Criação e design da logo</li>
+                        <li class="contributionUIDesign">Design de UI</li>
+                        <li class="contributionGamePageStyling">Personalização da página na Itch.io</li>
                     </ul>
-                    <br><br><a href="https://itallo-casimiro.itch.io/the-good-the-bad-and-the-paperwork" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Acessar a página da Itch.io</button></a></p>
+                    <br><br><a href="https://itallo-casimiro.itch.io/the-good-the-bad-and-the-paperwork" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div class="acessItchioGamePage">Acessar a página da Itch.io</div></button></a></p>
                 </div>
                 <div class="Project" id="Word_n_TowerProject">
                     <img src="../../Images/Projects/Word_n_Tower/Logo.png" id="Word_n_Tower">
-                    <p>Word 'n' Towers é um jogo 2D party game onde você deve escrever palavras para aumentar o tamanho da sua torre e fugir da lava. Seu objetivo é sobreviver e conquistar o 1° lugar.<br><br>
-                    Word 'n' Tower foi desenvolvido especialemente para a <a href="https://itch.io/jam/nextindie-jam-2" style="color: #0484d1;font-weight: bold;">NextIndie Jam 2 - Edição de férias</a><br><br>
-                    <h3>Contribuições</h3> 
+                    <p><div id="word_n_TowerDescription1">Word 'n' Tower é um jogo 2D party game onde você deve escrever palavras para aumentar o tamanho da sua torre e fugir da lava. Seu objetivo é sobreviver e conquistar o 1° lugar.</div><br><br>
+                    <div id="word_n_TowerDevelopedFor">Word 'n' Tower foi desenvolvido especialemente para a </div><a href="https://itch.io/jam/nextindie-jam-2" style="color: #0484d1;font-weight: bold;">NextIndie Jam 2 - Edição de férias</a><br><br>
+                    <h3 class="contributionsTitle">Contribuições</h3> 
                     <ul>
-                        <li>Jogo de game jam solo</li>
+                        <li class="contributionSoloGameJam">Jogo de game jam solo</li>
                     </ul>
-                    <br><br><a href="https://itallo-casimiro.itch.io/word-n-tower" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_Black">Acessar a página da Itch.io</button></a></p>
+                    <br><br><a href="https://itallo-casimiro.itch.io/word-n-tower" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_Black"><div class="acessItchioGamePage">Acessar a página da Itch.io</div></button></a></p>
                 </div>
                 <div class="Project" id="QuacGeddonProject">
                     <img src="../../Images/Projects/QuacGeddon/Logo.png" id="QuacGeddon">
@@ -148,7 +146,7 @@
                         <li>Tradução e Localização</li>
                         <li>Personalização da página na Itch.io</li>
                     </ul>
-                    <br><br><a href="https://itallo-casimiro.itch.io/quacgeddon-quacarnage-time" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Acessar a página da Itch.io</button></a></p>
+                    <br><br><a href="https://itallo-casimiro.itch.io/quacgeddon-quacarnage-time" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div class="acessItchioGamePage">Acessar a página da Itch.io</div></button></a></p>
                 </div>
                 <div class="Project" id="GallopToyProject">
                     <img src="../../Images/Projects/GallopToy/Logo.png" id="GallopToy">
@@ -158,7 +156,7 @@
                     <ul>
                         <li>Programação</li>
                     </ul>
-                    <br><br><a href="https://katiene-souza.itch.io/gallop-toy" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Acessar a página da Itch.io</button></a></p>
+                    <br><br><a href="https://katiene-souza.itch.io/gallop-toy" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div class="acessItchioGamePage">Acessar a página da Itch.io</div></button></a></p>
                 </div>
                 <div class="Project" id="BSSI2BitsProject">
                     <img src="../../Images/Projects/BitSized_SplitIn2Bits/Logo.png" id="BSSI2Bits">
@@ -169,7 +167,7 @@
                         <li>Tradução e Localização</li>
                         <li>Personalização da página na Itch.io</li>
                     </ul>
-                    <br><br><a href="https://itallo-casimiro.itch.io/bit-sized-split-in-2bits" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Acessar a página da Itch.io</button></a></p>
+                    <br><br><a href="https://itallo-casimiro.itch.io/bit-sized-split-in-2bits" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div class="acessItchioGamePage">Acessar a página da Itch.io</div></button></a></p>
                 </div>
            </div>
        </div>
@@ -179,17 +177,5 @@
             <p>&copy; Itallo Casimiro Felix  <span id="year"></span></p>
         </div>
     </footer>
-
-    <script>
-        var Year = new Date().getFullYear();
-        document.getElementById("year").textContent = String(Year)
-        const menuToggle = document.querySelector('.ToggleMenu');
-        const nav = document.querySelector('nav');
-
-        menuToggle.addEventListener('click', () => {
-        nav.classList.toggle('active');
-        });
-
-    </script>
 </body>
 </html>

@@ -7,23 +7,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfólio Itallo Casimiro</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <header>
         <div class="Container">
             <div class="Logo">
-                <h1>Meu Portfólio</h1>
+                <h1 id="docTitle">Meu Portfólio</h1>
+            </div>
+            <div class="LanguageSwitcher">
+                <button onclick="setLanguage('pt')">PT</button>
+                <button onclick="setLanguage('en')">EN</button>
             </div>
             <button class="ToggleMenu">&#9776;</button>
             <nav>
                 <ul>
-                    <li><a href="#About">Sobre</a></li>
-                    <li><a href="#Skills">Habilidades</a></li>
-                    <li><a href="#Technologies">Tecnologias</a></li>
-                    <li><a href="#Projects">Projetos</a></li>
-                    <li><a href="#Certificates">Certificados</a></li>
-                    <li><a href="#Contact">Contato</a></li>
+                    <li><a href="#About"><div id="navAbout">Sobre</div></a></li>
+                    <li><a href="#Skills"><div id="navSkills">Habilidades</div></a></li>
+                    <li><a href="#Technologies"><div id="navTechnologies">Tecnologias</div></a></li>
+                    <li><a href="#Projects"><div id="navProjects">Projetos</div></a></li>
+                    <li><a href="#Certificates"><div id="navCertificates">Certificados</div></a></li>
+                    <li><a href="#Contact"><div id="navContact">Contato</div></a></li>
                 </ul>
             </nav>
         </div>
@@ -34,61 +39,61 @@
             <h2 id="TextAbout">Sobre Mim, Itallo Casimiro</h2>
             <div class="Profile">
                 <img src="Images/About/ProfileImage.png" alt="profilePhoto">
-                <p class="Text">Olá! Sou estudante de design de jogos e programação, estou me preparando para ter minha primeira experiência de trabalho com desenvolvimento de jogos</p>
+                <p class="Text" id="Text">Olá! Sou estudante de design de jogos e programação, estou me preparando para ter minha primeira experiência de trabalho com desenvolvimento de jogos</p>
             </div>
         </div>
     </section>
 
     <section id="Skills" class="Section">
         <div class="Container">
-            <h2>Habilidades</h2>
+            <h2 id="skillsTitle">Habilidades</h2>
             <div class="Skills">
                 <div class="Skill">
-                    <h3>Unity e Godot</h3>
-                    <p>Conhecimentos sobre as Engines Unity e Godot</p>
+                    <h3 id="skill1Title">Unity e Godot</h3>
+                    <p id="skill1Text">Conhecimentos sobre as Engines Unity e Godot</p>
                 </div>
                 <div class="Skill">
-                    <h3>Documentação GDD</h3>
-                    <p>Experiência em criação de documentos GDD</p>
+                    <h3 id="skill2Title">Documentação GDD</h3>
+                    <p id="skill2Text">Experiência em criação de documentos GDD</p>
                 </div>
                 <div class="Skill">
-                    <h3>Game Art</h3>
-                    <p>Habilidades com artes 2D para jogos</p>
+                    <h3 id="skill3Title">Game Art</h3>
+                    <p id="skill3Text">Habilidades com artes 2D para jogos</p>
                 </div>
                 <div class="Skill">
-                    <h3>Design de UI/UX</h3>
-                    <p>Habilidades com design de UI/UX 2D para jogos</p>
+                    <h3 id="skill4Title">Design de UI/UX</h3>
+                    <p id="skill4Text">Habilidades com design de UI/UX 2D para jogos</p>
                 </div>
                 <div class="Skill">
-                    <h3>Programação</h3>
-                    <p>Conhecimento em programação com as linguagens C# e GDScript</p>
+                    <h3 id="skill5Title">Programação</h3>
+                    <p id="skill5Text">Conhecimento em programação com as linguagens C# e GDScript</p>
                 </div>
                 <div class="Skill">
-                    <h3>Inglês</h3>
-                    <p>Conhecimento em inglês em nível intermediário / avançado</p>
+                    <h3 id="skill6Title">Inglês</h3>
+                    <p id="skill6Text">Conhecimento em inglês em nível intermediário / avançado</p>
                 </div>
                 <div class="Skill">
-                    <h3>Versionamento de código</h3>
-                    <p>Conhecimento em versionamento de código com Git</p>
+                    <h3 id="skill7Title">Versionamento de código</h3>
+                    <p id="skill7Text">Conhecimento em versionamento de código com Git</p>
                 </div>
                 <div class="Skill">
-                    <h3>Desenvolvimento web</h3>
-                    <p>Conhecimento em HTML e CSS para criação de páginas web</p>
+                    <h3 id="skill8Title">Desenvolvimento web</h3>
+                    <p id="skill8Text">Conhecimento em HTML e CSS para criação de páginas web</p>
                 </div>
                 <div class="Skill">
-                    <h3>Tradução para jogos</h3>
-                    <p>Experiência em tradução e localização para jogos</p>
+                    <h3 id="skill9Title">Tradução para jogos</h3>
+                    <p id="skill9Text">Experiência em tradução e localização para jogos</p>
                 </div>
                 <div class="Skill">
-                    <h3>Criação de diálogos e puzzles</h3>
-                    <p>Idealização e aplicação de diálogos e puzzles para jogos</p>
+                    <h3 id="skill10Title">Criação de diálogos e puzzles</h3>
+                    <p id="skill10Text">Idealização e aplicação de diálogos e puzzles para jogos</p>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="Technologies" class="Technologies">
-        <h2>Minhas Tecnologias</h2>
+        <h2 id="myTechnologiesTitle">Minhas Tecnologias</h2>
         <div class="TechIcons">
           <div class="TechIcon">
             <img src="Images/Technologies/Icons/Notion.png" id="Notion">
@@ -139,35 +144,39 @@
 
     <section id="Projects" class="Section">
         <div class="Container">
-            <h2>Projetos Pessoais</h2>
+            <h2 id="personalProjectsTitle">Projetos Pessoais</h2>
             <div class="Projects">
                 <div class="Project" id="eBookProject">
                     <img src="Images/Projects/GameDesign_OProcessoDeCriaçãoDeUmJogo/Capa.png" id="eBook">
-                    <p>Meu eBook, Game Design, o processo de criação de um jogo, ensina os fundamentos e introduz o game design gratuitamente<br><br><a href="https://itallocasimiro.github.io/Game-Design-eBook" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_Black">Acessar o site do eBook</button></a></p>
+                    <p><div id="eBookDescription">Meu eBook, Game Design, o processo de criação de um jogo, ensina os fundamentos e introduz o game design gratuitamente</div><br><br><a href="https://itallocasimiro.github.io/Game-Design-eBook" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_Black"><div id="acess_eBookWebsite">Acessar o site do eBook</div></button></a></p>
                 </div>
                 <div class="Project" id="GaoxyProject">
                     <img src="Images/Projects/Gaoxy/Logo.png" id="Gaoxy">
-                    <p>Gaoxy é um jogo clássico de nave do gênero Shoot 'em Up baseado em Space Invaders, onde o jogador deve sobreviver aos inimigos que surgem atirando projéteis no jogador <br>
-                    O objetivo é sobreviver e eliminar o maior número possível de inimigos e conseguir bater o recorde pessoal de pontuação<br><br><a href="ProjectsPages/Gaoxy/Gaoxy.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Acessar detalhes do projeto</button></a></p>
+                    <p><div id="gaoxyDescription1">Gaoxy é um jogo clássico de nave do gênero Shoot 'em Up baseado em Space Invaders, onde o jogador deve sobreviver aos inimigos que surgem atirando projéteis no jogador</div><br>
+                    <div id="gaoxyDescription2">O objetivo é sobreviver e eliminar o maior número possível de inimigos e conseguir bater o recorde pessoal de pontuação</div><br><br><a href="ProjectsPages/Gaoxy/Gaoxy.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div class="acessProjectDetails">Acessar detalhes do projeto</div></button></a></p>
                 </div>
                 <div class="Project" id="RegistroJourneyProject">
                     <img src="Images/Projects/RegistroJourney/Logo.png" id="RegistroJourney">
-                    <p>O Registro Journey é uma newsletter onde eu posto semanalmente (todas as quartas-feiras) um registro falando sobre o que fiz na semana, no contexto de desenvolvimento de jogos.<br><br><p>O objetivo dessa newsletter é deixar registrado toda a minha jornada até que eu consiga realizar o meu objetivo de vida, para que eu possa ler tudo novamente e ver o meu progresso ao longo dos anos.</p><br><br><a href="https://itallocasimiro.substack.com/" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Ler Registros</button></a></p>
+                    <p id="registroJourneyDescription1">O Registro Journey é uma newsletter onde eu posto semanalmente (todas as quartas-feiras) um registro falando sobre o que fiz na semana no contexto de desenvolvimento de jogos.</p><br>
+                    <p id="registroJourneyDescription2">O objetivo dessa newsletter é deixar registrado toda a minha jornada até que eu consiga realizar o meu objetivo de vida, para que eu possa ler tudo novamente e ver o meu progresso ao longo dos anos.</p><br><br><a href="https://itallocasimiro.substack.com/" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div id="readRegisters">Ler Registros</div></button></a></p>
                 </div>
                 <div class="Project" id="SquirrelBucketProject">
                     <img src="Images/Projects/SquirrelBucket/Logo.png" id="SquirrelBucket">
-                    <p>Squirrel Bucket é um jogo 2D Catcher que se passa em uma única tela em que o jogador, que controla um esquilo com um barril, deve pegar as nozes que caem do céu sem deixa-las cair no chão<br>
-                    O jogo se baseia em quebrar o recorde pessoal a cada partida, sendo esse recorde o número de nozes coletadas na partida anterior<br><br><a href="ProjectsPages/SquirrelBucket/SquirrelBucket.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Acessar detalhes do projeto</button></a></p>
+                    <p><div id="squirrelBucketDescription1">Squirrel Bucket é um jogo 2D catcher que se passa em uma única tela em que o jogador, que controla um esquilo com um barril, deve pegar as nozes que caem do céu sem deixa-las cair no chão</div><br>
+                    <div id="squirrelBucketDescription2">O jogo se baseia em quebrar o recorde pessoal a cada partida, sendo esse recorde o número de nozes coletadas na partida anterior</div><br><br><a href="ProjectsPages/SquirrelBucket/SquirrelBucket.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div class="acessProjectDetails">Acessar detalhes do projeto</div></button></a></p>
                 </div>
                 <div class="Project" id="CUBEProject">
                     <img src="Images/Projects/CUBE/Logo.png" id="CUBE">
-                    <p>C.U.B.E é um jogo de quebra-cabeça de visão isométrica preto e branco onde você tem que construir um item. Seu objetivo é usar os materiais ao seu redor, refiná-los e junta-los para construir o item.<br> O jogo usa um sistema de níveis onde cada nível tem um item específico para construir. Você só tem que pensar na solução e construí-lo!<br><br>
-                    <a href="ProjectsPages/CUBE/CUBE.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_Black">Acessar detalhes do projeto</button></a>
+                    <p><div id="cubeDescription1">C.U.B.E é um jogo de quebra-cabeça de visão isométrica preto e branco onde você tem que construir um item. Seu objetivo é usar os materiais ao seu redor, refiná-los e junta-los para construir o item.</div><br>
+                    <div id="cubeDescription2">O jogo usa um sistema de níveis onde cada nível tem um item específico para construir. Você só tem que pensar na solução e construí-lo!</div><br><br>
+                    <a href="ProjectsPages/CUBE/CUBE.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_Black"><div class="acessProjectDetails">Acessar detalhes do projeto</div></button></a>
                 </div>
                 <div class="Project" id="WhoDidThatProject">
                     <img src="Images/Projects/WhoDidThat/Logo.png" id="WhoDidThat">
-                    <p>Who Did That? É um jogo de puzzle 2D onde o jogador controla um detetive novato da agência WDT que recebe seu primeiro caso de assassinato.<br> O jogador deve reunir, analisar e tirar conclusões através de documentos e informações importantes que receberá durante a gameplay.<br>O jogo possui mais de um modo de jogo, entre eles temos, por exemplo, o modo história, com uma história curta no qual o jogador recebe um caso de assassinato da vítima Martha Grayson e deve descobrir o culpado, e entre outros diversos modos de jogo.<br><br><br>
-                    <a href="ProjectsPages/WhoDidThat/WhoDidThat.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Acessar detalhes do projeto</button></a>
+                    <p><div id="whoDidThatDescription1">"Who Did That?" É um jogo de puzzle 2D onde o jogador controla um detetive novato da agência WDT que recebe seu primeiro caso de assassinato.</div><br>
+                    <div id="whoDidThatDescription2">Você deve reunir, analisar e tirar conclusões através de documentos e informações importantes que você receberá durante a gameplay.</div><br>
+                    <div id="whoDidThatDescription3">O jogo possui mais de um modo de jogo, entre eles temos, por exemplo, o modo história, com uma história curta no qual o jogador recebe um caso de assassinato da vítima Martha Grayson e deve descobrir o culpado, e entre outros diversos modos de jogo.</div><br><br>
+                    <a href="ProjectsPages/WhoDidThat/WhoDidThat.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div class="acessProjectDetails">Acessar detalhes do projeto</div></button></a>
                 </div>
             </div>
         </div>
@@ -175,117 +184,114 @@
 
     <section id="Projects" class="Section">
         <div class="Container">
-            <h2>Participações</h2>
+            <h2 id="participationsTitle">Participações</h2>
             <div class="Projects">
                 <div class="Project" id="CarnivalFamilyProject">
                     <img src="Images/Projects/CarnivalFamily/Logo.png" id="CarnivalFamily">
-                    <p>Carnival Family é um jogo do genêro time management (gerenciamento de tempo) onde o jogador controla um personagem que acorda no dia 28 de fevereiro e recebe uma ligação da sua sogra dizendo que vai levar a família para sua casa para comemorar o carnaval <br>
-                    O objetivo é completar todas as tarefas antes que a família chegue até a casa<br><br>
-                    Carnival Family foi desenvolvido especialemente para a <a href="https://itch.io/jam/ctrl-alt-jam-carnaval-2025" style="color: #ECA720;font-weight: bold;">Ctrl Alt Jam - Edição de carnaval 2025</a><br><br>
-                    <h3>Contribuições</h3> 
+                    <p><div id="carnivalFamilyDescription1">Carnival Family é um jogo do genêro gerenciamento de tempo onde o jogador controla um personagem que acorda no dia 28 de fevereiro e recebe uma ligação da sua sogra dizendo que vai levar a família para sua casa para comemorar o carnaval</div><br>
+                    <div id="carnivalFamilyDescription2">O objetivo é completar todas as tarefas antes que a família chegue até a casa</div><br><br>
+                    <div id="carnivalFamilyDevelopedFor">Carnival Family foi desenvolvido especialemente para a </div><a href="https://itch.io/jam/ctrl-alt-jam-carnaval-2025" style="color: #ECA720;font-weight: bold;">Ctrl Alt Jam - Edição de carnaval 2025</a><br><br>
+                    <h3 class="contributionsTitle">Contribuições</h3> 
                     <ul>
                         <li>Game Design</li>
-                        <li>UI/UX</li>
-                        <li>Documentação GDD</li>
-                        <li>Personalização da página na Itch.io</li>
+                        <li class="contributionUIDesign">UI/UX design</li>
+                        <li class="contributionGDDDocumentation">Documentação GDD</li>
+                        <li class="contributionGamePageStyling">Personalização da página na Itch.io</li>
                     </ul>
-                    <br><br><a href="ProjectsPages/CarnivalFamily/CarnivalFamily.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Acessar detalhes do projeto</button></a></p>
+                    <br><br><a href="ProjectsPages/CarnivalFamily/CarnivalFamily.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div class="acessProjectDetails">Acessar detalhes do projeto</div></button></a></p>
                 </div>
                 <div class="Project" id="SunMemoriesProject">
                     <img src="Images/Projects/SunMemories/Logo.png" id="SunMemories">
-                    <p>Sun Memories é um jogo 3D no estilo retro (consoles antigos) que conta a história de Janne, uma garota residente de uma pequena vila e recém formada no ensino médio que está em busca de um caminho para seguir no futuro antes do fim das férias de verão<br>
-                   Janne deve coletar memórias de sua vila explorando, falando com os residentes e... sonhando<br><br>
-                   Sun Memories foi desenvolvido especialemente para a <a href="https://itch.io/jam/32bitjam-summer-dreams" style="color: #ECA720;font-weight: bold;">32BitsJam - "Summer Dreams"</a><br><br>
-                    <h3>Contribuições</h3> 
+                    <p><div id="sunMemoriesDescription1">Sun Memories é um jogo 3D no estilo retro (consoles antigos) que conta a história de Janne, uma garota residente de uma pequena vila e recém formada no ensino médio que está em busca de um caminho para seguir no futuro antes do fim das férias de verão</div><br>
+                   <div id="sunMemoriesDescription2">Janne deve coletar memórias de sua vila explorando, falando com os residentes e... sonhando</div><br><br>
+                   <div id="sunMemoriesDevelopedFor">Sun Memories foi desenvolvido especialemente para a </div><a href="https://itch.io/jam/32bitjam-summer-dreams" style="color: #ECA720;font-weight: bold;">32BitsJam - "Summer Dreams"</a><br><br>
+                    <h3 class="contributionsTitle">Contribuições</h3> 
                     <ul>
                         <li>Game Design</li>
                         <li>Puzzles</li>
-                        <li>UI/UX</li>
-                        <li>Documentação GDD</li>
-                        <li>Diálogos</li>
-                        <li>Personalização da página na Itch.io</li>
+                        <li>UI/UX design</li>
+                        <li class="contributionGDDDocumentation">Documentação GDD</li>
+                        <li class="contributionDialogues">Diálogos</li>
+                        <li class="contributionGamePageStyling">Personalização da página na Itch.io</li>
                     </ul>
-                    <br><br><a href="ProjectsPages/SunMemories/SunMemories.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_Black">Acessar detalhes do projeto</button></a></p>
+                    <br><br><a href="ProjectsPages/SunMemories/SunMemories.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_Black"><div class="acessProjectDetails">Acessar detalhes do projeto</div></button></a></p>
                 </div>
                 <div class="Project" id="EggsIncubationStationProject">
                     <img src="Images/Projects/EggsIncubationStation/Logo.png" id="EggsIncubationStation">
-                    <p>Eggs Incubation Station é um jogo de simulação onde o jogador gerencia uma estação de incubação de ovos, cuidando das necessidades dos ovos de criatura que estão prestes a chocar.<br>O objetivo é descobrir todas as 12 criaturas diferentes do jogo e gerenciar as incubadoras.<br><br>
-                   Eggs Incubation Station foi desenvolvido especialemente para a <a href="https://itch.io/jam/mini-jame-gam-45" style="color: #FEC844;font-weight: bold;">Mini Jame Gam #45</a><br><br>
-                    <h3>Contribuições</h3> 
+                    <p><div id="eggsIncubationStationDescription1">Eggs Incubation Station é um jogo de simulação onde o jogador gerencia uma estação de incubação de ovos, cuidando das necessidades dos ovos de criatura que estão prestes a chocar.</div><br><div id="eggsIncubationStationDescription2">O objetivo é descobrir todas as 12 criaturas diferentes do jogo e gerenciar as incubadoras.</div><br><br>
+                   <div id="eggsIncubationStationDevelopedFor">Eggs Incubation Station foi desenvolvido especialemente para a </div><a href="https://itch.io/jam/mini-jame-gam-45" style="color: #FEC844;font-weight: bold;">Mini Jame Gam #45</a><br><br>
+                    <h3 class="contributionsTitle">Contribuições</h3> 
                     <ul>
                         <li>Lead Game Design</li>
-                        <li>UI/UX</li>
-                        <li>Personalização da página na Itch.io</li>
+                        <li>UI/UX design</li>
+                        <li class="contributionGamePageStyling">Personalização da página na Itch.io</li>
                     </ul>
-                    <br><br><a href="https://chris-gw.itch.io/egg-incubation-station" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Acessar a página da Itch.io</button></a></p>
+                    <br><br><a href="https://chris-gw.itch.io/egg-incubation-station" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div class="acessItchioGamePage">Acessar a página da Itch.io</div></button></a></p>
                 </div>
                 <div class="Project" id="KrisKLTJProject">
                     <img src="Images/Projects/KrisKringle_LicenseToJingle/Logo.png" id="KrisKringle_LicenseToJingle">
-                    <p>"Kris Kringle License to Jingle!" É um jogo do gênero stealth 2D onde o jogador controla o Papai Noel, e sua missão é entregar um presente para uma garotinha sem ser pego.<br><br>
-                    "Kris Kringle License to Jingle!" foi desenvolvido especialemente para a <a href="https://itch.io/jam/brackeys-14" style="color: #007bff;font-weight: bold;">Brackeys Game Jam 2025.2</a><br><br>
-                    <h3>Contribuições</h3> 
+                    <p><div id="krisKringle_LicenseToJingleDescription1">"Kris Kringle License to Jingle!" É um jogo do gênero stealth 2D onde o jogador controla o Papai Noel, e sua missão é entregar um presente para uma garotinha sem ser pego.</div><br><br>
+                    <div id="krisKringle_LicenseToJingleDevelopedFor">"Kris Kringle License to Jingle!" foi desenvolvido especialemente para a </div><a href="https://itch.io/jam/brackeys-14" style="color: #007bff;font-weight: bold;">Brackeys Game Jam 2025.2</a><br><br>
+                    <h3 class="contributionsTitle">Contribuições</h3> 
                     <ul>
-                        <li>Programação (Lead)</li>
-                        <li>Organização de assets</li>
-                        <li>Estilização geral</li>
+                        <li class="contributionProgramming">Programação</li>
                         <li>UI/UX design</li>
-                        <li>Personalização da página na Itch.io</li>
+                        <li class="contributionGamePageStyling">Personalização da página na Itch.io</li>
                     </ul>
-                    <br><br><a href="ProjectsPages/KrisKringle_LicenseToJingle/KrisKringle_LicenseToJingle.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Acessar detalhes do projeto</button></a></p>
+                    <br><br><a href="ProjectsPages/KrisKringle_LicenseToJingle/KrisKringle_LicenseToJingle.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div class="acessProjectDetails">Acessar detalhes do projeto</div></button></a></p>
                 </div>
                 <div class="Project" id="TGTBaTPaperworkProject">
                     <img src="Images/Projects/TheGoodTheBadAndThePaperwork/Logo.png" id="TheGoodTheBadAndThePaperwork">
-                    <p>"The Good, The Bad and The Paperwork" é um jogo onde você controla o xerife de uma pequena cidadela, seu objetivo é avaliar os documentos dos cidadãos, garantir que tudo esteja em ordem e permitir (ou não) a entrada dos cidadãos.<br><br>
-                    "The Good, The Bad and The Paperwork" foi desenvolvido especialemente para a <a href="https://itch.io/jam/cross-worlds-game-jam-2025" style="color: #664F2B;font-weight: bold;">Cross Worlds Game Jam 2025</a><br><br>
-                    <h3>Contribuições</h3> 
+                    <p><div id="theGoodTheBadAndThePaperworkDescription1">"The Good, The Bad and The Paperwork" é um jogo onde você controla o xerife de uma pequena cidadela, seu objetivo é avaliar os documentos dos cidadãos, garantir que tudo esteja em ordem e permitir (ou não) a entrada dos cidadãos.</div><br><br>
+                    <div id="theGoodTheBadAndThePaperworkDevelopedFor">"The Good, The Bad and The Paperwork" foi desenvolvido especialemente para a </div><a href="https://itch.io/jam/cross-worlds-game-jam-2025" style="color: #664F2B;font-weight: bold;">Cross Worlds Game Jam 2025</a><br><br>
+                    <h3 class="contributionsTitle">Contribuições</h3> 
                     <ul>
                         <li>Game design</li>
-                        <li>Concept de NPCs</li>
-                        <li>Programação</li>
-                        <li>Diálogos</li>
-                        <li>Criação e design da logo</li>
-                        <li>Design de UI</li>
-                        <li>Criação dos menus</li>
-                        <li>Personalização da página na Itch.io</li>
+                        <li class="contributionNPCConcept">Concept de NPCs</li>
+                        <li class="contributionProgramming">Programação</li>
+                        <li class="contributionDialogues">Diálogos</li>
+                        <li class="contributionCreationAndDesignOfTheLogo">Criação e design da logo</li>
+                        <li class="contributionUIDesign">Design de UI</li>
+                        <li class="contributionGamePageStyling">Personalização da página na Itch.io</li>
                     </ul>
-                    <br><br><a href="ProjectsPages/TheGoodTheBadandThePaperwork/TheGoodTheBadAndThePaperwork.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White">Acessar detalhes do projeto</button></a></p>
+                    <br><br><a href="ProjectsPages/TheGoodTheBadandThePaperwork/TheGoodTheBadAndThePaperwork.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_White"><div id="acessProjectDetails"><div class="acessProjectDetails">Acessar detalhes do projeto</div></button></a></p>
                 </div>
                 <div class="Project" id="Word_n_TowerProject">
                     <img src="Images/Projects/Word_n_Tower/Logo.png" id="Word_n_Tower">
-                    <p>Word 'n' Towers é um jogo 2D party game onde você deve escrever palavras para aumentar o tamanho da sua torre e fugir da lava. Seu objetivo é sobreviver e conquistar o 1° lugar.<br><br>
-                    Word 'n' Tower foi desenvolvido especialemente para a <a href="https://itch.io/jam/nextindie-jam-2" style="color: #0484d1;font-weight: bold;">NextIndie Jam 2 - Edição de férias</a><br><br>
-                    <h3>Contribuições</h3> 
+                    <p><div id="word_n_TowerDescription1">Word 'n' Tower é um jogo 2D party game onde você deve escrever palavras para aumentar o tamanho da sua torre e fugir da lava. Seu objetivo é sobreviver e conquistar o 1° lugar.</div><br><br>
+                    <div id="word_n_TowerDevelopedFor">Word 'n' Tower foi desenvolvido especialemente para a </div><a href="https://itch.io/jam/nextindie-jam-2" style="color: #0484d1;font-weight: bold;">NextIndie Jam 2 - Edição de férias</a><br><br>
+                    <h3 class="contributionsTitle">Contribuições</h3> 
                     <ul>
-                        <li>Jogo de game jam solo</li>
+                        <li class="contributionSoloGameJam">Jogo de game jam solo</li>
                     </ul>
-                    <br><br><a href="ProjectsPages/Word_n_Tower/Word_n_Tower.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_Black">Acessar detalhes do projeto</button></a></p>
+                    <br><br><a href="ProjectsPages/Word_n_Tower/Word_n_Tower.html" target="_blank" rel="noonpener noreferrer"><button id="RedirectionButton_Black"><div id="acessProjectDetails"><div class="acessProjectDetails">Acessar detalhes do projeto</div></button></a></p>
                 </div>
            </div>
-           <br><a href="Pages/Projects/Projects.html" target="_blank" rel="noonpener noreferrer" style="text-decoration: none;"><button id="RedirectionButton_Projects">Acessar todos os Projetos e Participações</button></a>
+           <br><a href="Pages/Projects/Projects.html" target="_blank" rel="noonpener noreferrer" style="text-decoration: none;"><button id="RedirectionButton_Projects"><div id="acessAllProjectsAndParticipations">Acessar todos os Projetos e Participações</button></a>
        </div>
     </section>
 
     <section id="Certificates" class="Section">
         <div class="Container">
-            <h2>Certificados</h2>
+            <h2 id="certificatesTitle">Certificados</h2>
             <div class="Certificates">
                 <div class="Certificate">
                     <img src="Images/Certificates/GameDesignExperience/GDX-Certificate.png" alt="GameDesignCertificate">
-                    <h3>Certificado do curso Game Design Experience</h3>
-                    <p>Este curso me ensinou muito sobre o game design e fundamentos essenciais que não sabia</p>
-                    <a href="Images/Certificates/GameDesignExperience/GDX-Certificate.pdf" target="_blank" rel="noonpener noreferrer">Ver Certificado</a>
+                    <h3 id="gameDesignExperienceCourseTitle">Certificado do curso Game Design Experience</h3>
+                    <p id="gameDesignExperienceCourseDescription">Este curso me ensinou muito sobre o game design e fundamentos essenciais que não sabia</p>
+                    <a href="Images/Certificates/GameDesignExperience/GDX-Certificate.pdf" target="_blank" rel="noonpener noreferrer" class="showCertificate">Ver Certificado</a>
                 </div>
                 <div class="Certificate">
                     <img src="Images/Certificates/ArteVetorial_Inkscape/ArteVetorial_Inkscape-Certificate.png" alt="Certificado de Game Design">
-                    <h3>Certificado do curso Aprenda Design de Jogos 2D com Arte Vetorial e Inkscape</h3>
-                    <p>Este curso me ensinou a criar artes vetoriais para jogos 2D com o software Inkscape</p>
-                    <a href="Images/Certificates/ArteVetorial_Inkscape/ArteVetorial_Inkscape-Certificate.pdf" target="_blank" rel="noonpener noreferrer">Ver Certificado</a>
+                    <h3 id="learnDesignFor2DGamesCourseTitle">Certificado do curso Aprenda Design de Jogos 2D com Arte Vetorial e Inkscape</h3>
+                    <p id="learnDesignFor2DGamesCourseDescription">Este curso me ensinou a criar artes vetoriais para jogos 2D com o software Inkscape</p>
+                    <a href="Images/Certificates/ArteVetorial_Inkscape/ArteVetorial_Inkscape-Certificate.pdf" target="_blank" rel="noonpener noreferrer" class="showCertificate">Ver Certificado</a>
                 </div>
                 <div class="Certificate">
                     <img src="Images/Certificates/DesignDeJogos2D_CSJ/DesignDeJogos2D_CSJ-Certificate.png" alt="Certificado de design de jogos 2D">
-                    <h3>Certificado do curso Design de jogos 2D da CSJ Digital</h3>
-                    <p>Este curso me ensinou a criar artes vetoriais, pixel art, pintura digital e animações para jogos 2D.</p>
-                    <a href="Images/Certificates/DesignDeJogos2D_CSJ/DesignDeJogos2D_CSJ-Certificate.pdf" target="_blank" rel="noonpener noreferrer">Ver Certificado</a>
+                    <h3 id="csj2DGameDesignCourseTitle">Certificado do curso Design de jogos 2D da CSJ Digital</h3>
+                    <p id="csj2DGameDesignCourseDescription">Este curso me ensinou a criar artes vetoriais, pixel art, pintura digital e animações para jogos 2D.</p>
+                    <a href="Images/Certificates/DesignDeJogos2D_CSJ/DesignDeJogos2D_CSJ-Certificate.pdf" target="_blank" rel="noonpener noreferrer"><div class="showCertificate">Ver Certificado</div></a>
                 </div>
             </div>
         </div>
@@ -293,7 +299,7 @@
 
     <section id="Contact" class="Section">
         <div class="Container">
-            <h2>Contato e Links</h2>
+            <h2 id="contactTitle">Contato e Links</h2>
             <div class="ContactLinks">
                 <a href="https://beacons.ai/gamechipsstudios" target="_blank"  rel="noonpener noreferrer" class="ContactItem">
                     <img src="Images/Contact/Icons/GameChipsStudios.png" alt="GameChipsStudios" class="SocialIcon">
@@ -321,7 +327,7 @@
                 </a>
                 <a href="https://discord.gg/3gJGKz7Gsh" target="_blank"  rel="noonpener noreferrer" class="ContactItem">
                     <img src="Images/Contact/Icons/Discord.png" alt="Discord" class="SocialIcon">
-                    <span>Servidor no Discord</span>
+                    <span id="discordServer">Servidor no Discord</span>
                 </a>
             </div>
         </div>
@@ -332,17 +338,5 @@
             <p>&copy; Itallo Casimiro Felix  <span id="year"></span></p>
         </div>
     </footer>
-
-    <script>
-        var Year = new Date().getFullYear();
-        document.getElementById("year").textContent = String(Year)
-        const menuToggle = document.querySelector('.ToggleMenu');
-        const nav = document.querySelector('nav');
-
-        menuToggle.addEventListener('click', () => {
-        nav.classList.toggle('active');
-        });
-
-    </script>
 </body>
 </html>
