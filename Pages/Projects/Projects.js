@@ -50,6 +50,15 @@ const translations = {
         word_n_TowerDescription1: "Word 'n' Tower é um jogo 2D party game onde você deve escrever palavras para aumentar o tamanho da sua torre e fugir da lava. Seu objetivo é sobreviver e conquistar o 1° lugar.",
         word_n_TowerDevelopedFor: "Word 'n' Tower foi desenvolvido especialemente para a ",
 
+        quackGeddonDescription1: "\"QuacGeddon: Quacarnage Time\" é um jogo 2D endless runner onde você é o líder de um bando de patos enfrentando uma seca no lago da aldeia e recorrem a uma prece ancestral: o \"Quá, quá, quá\". Mas algo deu errado, e o chamado despertou o demônio Beelzequack.",
+        quackGeddonDevelopedFor: "\"QuacGeddon: Quacarnage Time\" foi desenvolvido especialemente para a ",
+
+        gallopToyDescription1: "Gallop Toy é um jogo 2D onde você está em uma competição mundial de corrida de cavalos de brinquedo, seu objetivo é simples: conquistar o 1° lugar e provar que só porque é pequeno não significa que não é o mais rápido.",
+        gallopToyDevelopedFor: "Gallop Toy foi desenvolvido especialemente para a ",
+
+        bitSized_SplitIn2BitsDescription1: "\"Bit-Sized: Split in 2 Bits\" é um jogo 2D onde você é uma partícula menor que um átomo. Ou melhor: você é o que restou da consciência de uma cientista que estudava o mundo quântico da eletricidade e após tomar um choque acidental, teve uma parte de si transportada para dentro de um circuito eletrônico, fazendo com que sua essência se fragmentasse, agora você terá que resolver puzzles com cargas elétricas e baterias para avançar e recuperar o seu corpo.",
+        bitSized_SplitIn2BitsDevelopedFor: "\"Bit-Sized: Split in 2 Bits\" foi desenvolvido especialemente para a ",
+
         contributionsTitle: "Contribuições",
         contributionGDDDocumentation: "Documentação GDD",
         contributionGamePageStyling: "Estilização da Página do Jogo na Itch.io",
@@ -59,6 +68,7 @@ const translations = {
         contributionUIDesign: "UI Design",
         contributionCreationAndDesignOfTheLogo: "Criação e Design da Logo",
         contributionSoloGameJam: "Jogo de Game Jam Solo",
+        contributionTranslation: "Tradução e Localização",
 
         acess_eBookWebsite: "Acessar o site do eBook",
         readRegisters: "Ler Registros",
@@ -112,6 +122,15 @@ const translations = {
         word_n_TowerDescription1: "Word 'n' Tower is a word puzzle game where you have to build a tower by writing words to scape from the lava. Your goal is to survive and win the first place.",
         word_n_TowerDevelopedFor: "Word 'n' Tower was developed especially for ",
 
+        quackGeddonDescription1: "\"QuacGeddon: Quacarnage Time\" is a 2D endless runner game where you are you're the Quackers leader facing a drought in the village's lake. Desperate, you appeal to an ancient prayer: the \"Quack, Quack, Quack\", but something went wrong. Instead of reach the benevolent rain god, Chaac-Quack, who loves a puddle, the prayer woke up the demon Beelzequack, with a bloodlust that now possesses your body.",
+        quackGeddonDevelopedFor: "\"QuacGeddon: Quacarnage Time\" was developed especially for ",
+
+        gallopToyDescription1: "Gallop Toy is a 2D game where you are a cute toy horse in a race against time and other toy companions. Navigate the tracks, dodge obstacles, and prove that being small doesn't mean you can't be the fastest!",
+        gallopToyDevelopedFor: "Gallop Toy was developed especially for ",
+
+        bitSized_SplitIn2BitsDescription1: "\"Bit-Sized: Split in 2 Bits\" is a 2D game where In this universe, you are a particle smaller than an atom. Actually, you are what is left of a scientist’s consciousness that was studying the quantum world of electricity. After getting shocked, part of you was transferred into an electronic circuit, fragmenting her body. Now, your goal is to get back your body, navegating in a microscopic world, charging batteries and crossing portals.",
+        bitSized_SplitIn2BitsDevelopedFor: "\"Bit-Sized: Split in 2 Bits\" was developed especially for ",
+
         contributionsTitle: "Contributions",
         contributionGDDDocumentation: "GDD Documentation",
         contributionGamePageStyling: "Itch.io Game Page Styling",
@@ -121,6 +140,7 @@ const translations = {
         contributionUIDesign: "UI Design",
         contributionCreationAndDesignOfTheLogo: "Creation and Design of the Logo",
         contributionSoloGameJam: "Solo Game Jam Project",
+        contributionTranslation: "Translation and Localization",
 
         acess_eBookWebsite: "Acess the eBook website",
         readRegisters: "Read Registers",

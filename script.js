@@ -112,6 +112,7 @@ const translations = {
         contributionUIDesign: "UI Design",
         contributionCreationAndDesignOfTheLogo: "Criação e Design da Logo",
         contributionSoloGameJam: "Solo Game Jam Project",
+        contributionTranslation: "Tradução e Localização",
 
         acess_eBookWebsite: "Acessar o site do eBook",
         readRegisters: "Ler Registros",
@@ -234,6 +235,7 @@ const translations = {
         contributionUIDesign: "UI Design",
         contributionCreationAndDesignOfTheLogo: "Creation and Design of the Logo",
         contributionSoloGameJam: "Solo Game Jam Project",
+        contributionTranslation: "Translation and Localization",
 
         acess_eBookWebsite: "Acess the eBook website",
         readRegisters: "Read Registers",
