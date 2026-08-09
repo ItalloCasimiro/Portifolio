@@ -352,13 +352,16 @@ section > div > div > p{
     min-width: 240px;
 }
 
-#CarnivalFamilyProject{
-    background-image: url("Images/Projects/CarnivalFamily/Background.png");
+#MrTugProject{
+    background-color: #4d1111;
+    border: 10px solid #3d2f1f;
+    border-radius: 10px;
     color: white;
     background-size: cover;
+    background-position: center;
 }
 
-#CarnivalFamily{
+#MrTug{
     width: 80%;
     max-width: 350px;
     min-width: 200px;
@@ -377,16 +380,14 @@ section > div > div > p{
     min-width: 200px;
 }
 
-#EggsIncubationStationProject{
-    background-image: url("Images/Projects/EggsIncubationStation/Background.png");
+#CarnivalFamilyProject{
+    background-image: url("Images/Projects/CarnivalFamily/Background.png");
     color: white;
-    background-position: 150vh;
-    font-weight: 600;
     background-size: cover;
 }
 
-#EggsIncubationStation{
-    width: 100%;
+#CarnivalFamily{
+    width: 80%;
     max-width: 350px;
     min-width: 200px;
 }

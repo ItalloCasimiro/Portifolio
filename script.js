@@ -82,17 +82,17 @@ const translations = {
 
         participationsTitle: "Participações",
 
-        carnivalFamilyDescription1: "Carnival Family é um jogo do genêro gerenciamento de tempo onde o jogador controla um personagem que acorda no dia 28 de fevereiro e recebe uma ligação da sua sogra dizendo que vai levar a família para sua casa para comemorar o carnaval.",
-        carnivalFamilyDescription2: "O objetivo é completar todas as tarefas antes que a família chegue até a casa.",
-        carnivalFamilyDevelopedFor: "Carnival Family foi desenvolvido especialemente para a ",
+        mrTugDescription1: "Você controla Gabriel, um garoto que recebe um adorável ursinho de pelúcia, que em instantes se torna seu brinquedo favorito. Mas uma noite, sozinho em casa, sons estranhos, portas trancadas e uma presença desconhecida tornam tudo em um pesadelo.",
+        mrTugDescription2: "Agora você deve descobrir o que está acontecendo antes que seu novo melhor amigo não te deixe sair.",
+        mrTugDevelopedFor: "Mr. Tug foi desenvolvido especialemente para a ",
 
         sunMemoriesDescription1: "Sun Memories é um jogo 3D no estilo retro (consoles antigos) que conta a história de Janne, uma garota residente de uma pequena vila e recém formada no ensino médio que está em busca de um caminho para seguir no futuro antes do fim das férias de verão.",
         sunMemoriesDescription2: "Janne deve coletar memórias de sua vila explorando, falando com os residentes e... Sonhando",
         sunMemoriesDevelopedFor: "Sun Memories foi desenvolvido especialemente para a ",
 
-        eggsIncubationStationDescription1: "Eggs Incubation Station é um jogo de simulação onde o jogador gerencia uma estação de incubação de ovos, cuidando das necessidades dos ovos de criatura que estão prestes a chocar.",
-        eggsIncubationStationDescription2: "O objetivo é descobrir todas as 12 criaturas diferentes do jogo e gerenciar as incubadoras.",
-        eggsIncubationStationDevelopedFor: "Eggs Incubation Station foi desenvolvido especialemente para a ",
+        carnivalFamilyDescription1: "Carnival Family é um jogo do genêro gerenciamento de tempo onde o jogador controla um personagem que acorda no dia 28 de fevereiro e recebe uma ligação da sua sogra dizendo que vai levar a família para sua casa para comemorar o carnaval.",
+        carnivalFamilyDescription2: "O objetivo é completar todas as tarefas antes que a família chegue até a casa.",
+        carnivalFamilyDevelopedFor: "Carnival Family foi desenvolvido especialemente para a ",
 
         krisKringle_LicenseToJingleDescription1: "\"Kris Kringle License to Jingle!\" É um jogo do gênero stealth 2D onde o jogador controla o Papai Noel, e sua missão é entregar um presente para uma garotinha sem ser pego.",
         krisKringle_LicenseToJingleDevelopedFor: "\"Kris Kringle License to Jingle!\" foi desenvolvido especialemente para a ",
@@ -205,17 +205,17 @@ const translations = {
 
         participationsTitle: "Participations",
 
-        carnivalFamilyDescription1: "Carnival Family is a game of the genre time management where you control a character that wakes up on February 28th and receives a call from his mother-in-law saying that she will take the family to her house to celebrate carnival.",
-        carnivalFamilyDescription2: "The goal is to complete all the tasks before the family arrives at the house.",
-        carnivalFamilyDevelopedFor: "Carnival Family was developed especially for ",
+        mrTugDescription1: "You control Gabriel, a little boy that receives an adorable teddy bear as a gift, and it quickly becomes his favorite toy. But one night, while he’s home alone, strange noises, locked doors, and an unsettling presence turn everything into a nightmare.",
+        mrTugDescription2: "Now, he must figure out what’s going on before his new best friend decides never to let him go.",
+        mrTugDevelopedFor: "Mr. Tug was developed especially for ",
 
         sunMemoriesDescription1: "Sun Memories is a retro-style 3D game that tells the story of Janne, a girl who lives in a small village and recently graduated from high school and is looking for a way to follow in the future before the end of the summer vacation.",
         sunMemoriesDescription2: "Janne must collect memories from her village exploring, talking with the villagers and... Dreaming",
         sunMemoriesDevelopedFor: "Sun Memories was developed especially for ",
 
-        eggsIncubationStationDescription1: "Eggs Incubation Station is a simulation game where you manage an incubation station for eggs, ensuring they are properly cared for until they hatch.",
-        eggsIncubationStationDescription2: "The goal is to discover all the 12 different creatures that can hatch from the eggs by providing the right conditions for their incubation.",
-        eggsIncubationStationDevelopedFor: "Eggs Incubation Station was developed especially for ",
+        carnivalFamilyDescription1: "Carnival Family is a game of the genre time management where you control a character that wakes up on February 28th and receives a call from his mother-in-law saying that she will take the family to her house to celebrate carnival.",
+        carnivalFamilyDescription2: "The goal is to complete all the tasks before the family arrives at the house.",
+        carnivalFamilyDevelopedFor: "Carnival Family was developed especially for ",
 
         krisKringle_LicenseToJingleDescription1: "\"Kris Kringle, License to Jingle\" is a 2D action game where you control Santa Claus, and must deliver a gift to a little girl without being caught.",
         krisKringle_LicenseToJingleDevelopedFor: "Kris Kringle, License to Jingle was developed especially for ",

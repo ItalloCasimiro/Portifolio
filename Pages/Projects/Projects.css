@@ -284,6 +284,35 @@ section > div > div > p{
     min-width: 200px;
 }
 
+#MrTugProject{
+    background-color: #4d1111;
+    border: 10px solid #3d2f1f;
+    border-radius: 10px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+#MrTug{
+    width: 80%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
+#CircusNightmareProject{
+    background-image: url("../../Images/Projects/CircusNightmare/Background.png");
+    color: white;
+    background-position: 150vh;
+    font-weight: 600;
+    background-size: cover;
+}
+
+#CircusNightmare{
+    width: 100%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
 .Project > img{
     margin-bottom: 15px;
 }

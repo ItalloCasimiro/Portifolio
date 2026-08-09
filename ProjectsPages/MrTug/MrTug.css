@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: white;
+    padding: 20px;
+    background-image: url("../../Images/Projects/MrTug/TVBackground.png");
+    background-color: #5D6364;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#Logo {
+    width: 80%;
+    max-width: 500px;
+    min-width: 300px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #4d1111;
+    text-shadow: 2px 2px 2px #3d2f1f;
+}
+
+p {
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+li {
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+strong{
+    color: #6d7483;
+}
+
+.VideoContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.VideoContainer iframe {
+    width: 80%;
+    max-width: 720px;
+    height: 400px;
+}
+
+.VideoContainer video {
+    width: 100%;
+    max-width: 720px;
+    height: 400px;
+}
+
+.Contributions {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Contributions li {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+.Details {
+    margin: 20px;
+}
+
+.Detail {
+    background: #241b1e;
+    color: white;;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Details h3 {
+    font-size: 1.3em;
+    color: #9b692d;
+    text-shadow: 0px 2.5px 5px #593c1a;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.Details p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+#LogoJam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#LogoJam img {
+    width: 80%;
+    max-width: 400px;
+    min-width: 280px;
+}
+
+@media (min-width: 1024px) {
+    .Details p {
+        width: 45%;
+    }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .VideoContainer iframe {
+        width: 100%;
+    }
+
+    #Logo {
+        width: 65%;
+    }
+}
+
+@media (min-width: 768px) {
+    .Details {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-content: center;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .Details h3 {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .Details p {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .VideoContainer iframe {
+        height: 250px;
+    }
+}
+
+.ButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.ButtonContainer a {
+    text-decoration: none;
+}
+
+.Button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4D1111;
+    color: white;
+    border-radius: 10px;
+    text-shadow: -2px 1px 2px black;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+}
+
+.Button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 8px rgb(255, 255, 255);
+    background-color: #9b692d;
+}

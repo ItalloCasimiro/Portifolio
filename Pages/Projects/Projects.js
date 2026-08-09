@@ -59,6 +59,14 @@ const translations = {
         bitSized_SplitIn2BitsDescription1: "\"Bit-Sized: Split in 2 Bits\" é um jogo 2D onde você é uma partícula menor que um átomo. Ou melhor: você é o que restou da consciência de uma cientista que estudava o mundo quântico da eletricidade e após tomar um choque acidental, teve uma parte de si transportada para dentro de um circuito eletrônico, fazendo com que sua essência se fragmentasse, agora você terá que resolver puzzles com cargas elétricas e baterias para avançar e recuperar o seu corpo.",
         bitSized_SplitIn2BitsDevelopedFor: "\"Bit-Sized: Split in 2 Bits\" foi desenvolvido especialemente para a ",
 
+        mrTugDescription1: "Você controla Gabriel, um garoto que recebe um adorável ursinho de pelúcia, que em instantes se torna seu brinquedo favorito. Mas uma noite, sozinho em casa, sons estranhos, portas trancadas e uma presença desconhecida tornam tudo em um pesadelo.",
+        mrTugDescription2: "Agora você deve descobrir o que está acontecendo antes que seu novo melhor amigo não te deixe sair.",
+        mrTugDevelopedFor: "Mr. Tug foi desenvolvido especialemente para a ",
+
+        circusNightmareDescription1: "Você controla Mason, um garoto humano que, após cair no sono, acorda preso em um espetáculo sobrenatural chamado Circus Nightmare, onde os participantes devem atravessar caminhos de plataformas enquanto uma locutora carismática narra o evento como se fosse um showzinho da morte divertido.",
+        circusNightmareDescription2: "O objetivo é alcançar o final do caminho de plataformas e escapar desse... Lugar esquisito.",
+        circusNightmareDevelopedFor: "Circus Nightmare foi desenvolvido especialemente para a ",
+
         contributionsTitle: "Contribuições",
         contributionGDDDocumentation: "Documentação GDD",
         contributionGamePageStyling: "Estilização da Página do Jogo na Itch.io",
@@ -130,6 +138,14 @@ const translations = {
 
         bitSized_SplitIn2BitsDescription1: "\"Bit-Sized: Split in 2 Bits\" is a 2D game where In this universe, you are a particle smaller than an atom. Actually, you are what is left of a scientist’s consciousness that was studying the quantum world of electricity. After getting shocked, part of you was transferred into an electronic circuit, fragmenting her body. Now, your goal is to get back your body, navegating in a microscopic world, charging batteries and crossing portals.",
         bitSized_SplitIn2BitsDevelopedFor: "\"Bit-Sized: Split in 2 Bits\" was developed especially for ",
+
+        mrTugDescription1: "You control Gabriel, a little boy that receives an adorable teddy bear as a gift, and it quickly becomes his favorite toy. But one night, while he’s home alone, strange noises, locked doors, and an unsettling presence turn everything into a nightmare.",
+        mrTugDescription2: "Now, he must figure out what’s going on before his new best friend decides never to let him go.",
+        mrTugDevelopedFor: "Mr. Tug was developed especially for ",
+
+        circusNightmareDescription1: "The player controls Mason, an ordinary boy who, after falling asleep, wakes up trapped in a supernatural spectacle called Circus Nightmare, where participants must navigate by deadly paths while a very charismatic announcer narrates the event as it were an entertainment show.",
+        circusNightmareDescription2: "The goal is to reach the end of the platforms path and escape from that... Weird place.",
+        circusNightmareDevelopedFor: "Circus Nightmare was developed especially for ",
 
         contributionsTitle: "Contributions",
         contributionGDDDocumentation: "GDD Documentation",
