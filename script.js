@@ -84,24 +84,27 @@ const translations = {
 
         mrTugDescription1: "Você controla Gabriel, um garoto que recebe um adorável ursinho de pelúcia, que em instantes se torna seu brinquedo favorito. Mas uma noite, sozinho em casa, sons estranhos, portas trancadas e uma presença desconhecida tornam tudo em um pesadelo.",
         mrTugDescription2: "Agora você deve descobrir o que está acontecendo antes que seu novo melhor amigo não te deixe sair.",
-        mrTugDevelopedFor: "Mr. Tug foi desenvolvido especialemente para a ",
+        mrTugDevelopedFor: "Mr. Tug foi desenvolvido especialmente para a ",
 
         sunMemoriesDescription1: "Sun Memories é um jogo 3D no estilo retro (consoles antigos) que conta a história de Janne, uma garota residente de uma pequena vila e recém formada no ensino médio que está em busca de um caminho para seguir no futuro antes do fim das férias de verão.",
         sunMemoriesDescription2: "Janne deve coletar memórias de sua vila explorando, falando com os residentes e... Sonhando",
-        sunMemoriesDevelopedFor: "Sun Memories foi desenvolvido especialemente para a ",
+        sunMemoriesDevelopedFor: "Sun Memories foi desenvolvido especialmente para a ",
 
         carnivalFamilyDescription1: "Carnival Family é um jogo do genêro gerenciamento de tempo onde o jogador controla um personagem que acorda no dia 28 de fevereiro e recebe uma ligação da sua sogra dizendo que vai levar a família para sua casa para comemorar o carnaval.",
         carnivalFamilyDescription2: "O objetivo é completar todas as tarefas antes que a família chegue até a casa.",
-        carnivalFamilyDevelopedFor: "Carnival Family foi desenvolvido especialemente para a ",
+        carnivalFamilyDevelopedFor: "Carnival Family foi desenvolvido especialmente para a ",
 
         krisKringle_LicenseToJingleDescription1: "\"Kris Kringle License to Jingle!\" É um jogo do gênero stealth 2D onde o jogador controla o Papai Noel, e sua missão é entregar um presente para uma garotinha sem ser pego.",
-        krisKringle_LicenseToJingleDevelopedFor: "\"Kris Kringle License to Jingle!\" foi desenvolvido especialemente para a ",
+        krisKringle_LicenseToJingleDevelopedFor: "\"Kris Kringle License to Jingle!\" foi desenvolvido especialmente para a ",
 
         theGoodTheBadAndThePaperworkDescription1: "\"The Good, The Bad and The Paperwork\" é um jogo onde você controla o xerife de uma pequena cidadela, seu objetivo é avaliar os documentos dos cidadãos, garantir que tudo esteja em ordem e permitir (ou não) a entrada dos cidadãos.",
         theGoodTheBadAndThePaperworkDevelopedFor: "\"The Good, The Bad and The Paperwork\" foi desenvolvido especialmente para a ",
 
         word_n_TowerDescription1: "Word 'n' Tower é um jogo 2D party game onde você deve escrever palavras para aumentar o tamanho da sua torre e fugir da lava. Seu objetivo é sobreviver e conquistar o 1° lugar.",
-        word_n_TowerDevelopedFor: "Word 'n' Tower foi desenvolvido especialemente para a ",
+        word_n_TowerDevelopedFor: "Word 'n' Tower foi desenvolvido especialmente para a ",
+
+        SevenSecondsGearworkDescription1: "7 Seconds Gearwork é um jogo de plataforma 2D estilo Cartoon onde você controla uma engrenagem em uma fábrica de produção. Devido à problemas com as máquinas, por um motivo desconhecido uma máquina aleatória é danificada de 7 em 7 segundos, mas a produção não pode parar.",
+        SevenSecondsGearworkDevelopedFor: "7 Seconds Gearwork foi desenvolvido especialmente para a",
 
         contributionsTitle: "Contribuições",
         contributionGDDDocumentation: "Documentação GDD",
@@ -110,6 +113,7 @@ const translations = {
         contributionProgramming: "Programação",
         contributionNPCConcept: "Conceito de NPC",
         contributionUIDesign: "UI Design",
+        contributionGameArtAndAnimations2D: "Arte e Animações 2D",
         contributionCreationAndDesignOfTheLogo: "Criação e Design da Logo",
         contributionSoloGameJam: "Solo Game Jam Project",
         contributionTranslation: "Tradução e Localização",
@@ -226,6 +230,9 @@ const translations = {
         word_n_TowerDescription1: "Word 'n' Tower is a word puzzle game where you have to build a tower by writing words to scape from the lava. Your goal is to survive and win the first place.",
         word_n_TowerDevelopedFor: "Word 'n' Tower was developed especially for ",
 
+        SevenSecondsGearworkDescription1: "In 7 Seconds Gearwork, you controls a little gear at a production factory. Due to a critical issue in the machines, every 7 seconds a machine breaks, and is your mission to keep all of them working until the end of the day.",
+        SevenSecondsGearworkDevelopedFor: "7 Seconds Gearwork was developed especially for ",
+
         contributionsTitle: "Contributions",
         contributionGDDDocumentation: "GDD Documentation",
         contributionGamePageStyling: "Itch.io Game Page Styling",
@@ -233,6 +240,7 @@ const translations = {
         contributionProgramming: "Programming",
         contributionNPCConcept: "NPC Concept",
         contributionUIDesign: "UI Design",
+        contributionGameArtAndAnimations2D: "Art and Animations 2D",
         contributionCreationAndDesignOfTheLogo: "Creation and Design of the Logo",
         contributionSoloGameJam: "Solo Game Jam Project",
         contributionTranslation: "Translation and Localization",

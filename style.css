@@ -433,7 +433,15 @@ section > div > div > p{
     min-width: 200px;
 }
 
-#TheGoodTheBadAndThePaperwork{
+#SevenSecondsGearworkProject{
+    background-image: url("Images/Projects/7SecondsGearwork/Background.png");
+    color: white;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: repeat;
+}
+
+#SevenSecondsGearwork{
     width: 90%;
     max-width: 350px;
     min-width: 200px;
