@@ -133,6 +133,9 @@ const translations = {
         csj2DGameDesignCourseTitle: "Certificado do curso Design de jogos 2D da CSJ Digital",
         csj2DGameDesignCourseDescription: "Este curso me ensinou a criar artes vetoriais, pixel art, pintura digital e animações para jogos 2D.",
 
+        foundationalCSharpWithMicrosoftCourseTitle: "Certificado do curso Foundational C# with Microsoft",
+        foundationalCSharpWithMicrosoftCourseDescription: "Este curso me ensinou os fundamentos da linguagem C#.",
+
         certificatesTitle: "Certificados",
         showCertificate: "Mostrar Certificado",
 
@@ -259,6 +262,9 @@ const translations = {
 
         csj2DGameDesignCourseTitle: "CSJ 2D Game Design Course Certificate",
         csj2DGameDesignCourseDescription: "This course taught me how to create vetorial arts, pixel art, digital ilustration and animation for 2D games.",
+
+        foundationalCSharpWithMicrosoftCourseTitle: "Foundational C# with Microsoft course Certificate",
+        foundationalCSharpWithMicrosoftCourseDescription: "This course taught me the fundamentals of the C# programming language.",
 
         certificatesTitle: "Certificates",
         showCertificate: "Show Certificate",
