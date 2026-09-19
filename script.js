@@ -136,6 +136,9 @@ const translations = {
         foundationalCSharpWithMicrosoftCourseTitle: "Certificado do curso Foundational C# with Microsoft",
         foundationalCSharpWithMicrosoftCourseDescription: "Este curso me ensinou os fundamentos da linguagem C#.",
 
+        daxusAIImmersionCourseTitle: "Certificado da Imersão Inteligência Artificial na prática da Daxus",
+        daxusAIImmersionCourseDescription: "Essa série de aulas me ensinou o básico de interação, produtividade e desenvolvimento de agentes e assistentes com inteligência artificial.",
+
         certificatesTitle: "Certificados",
         showCertificate: "Mostrar Certificado",
 
@@ -265,6 +268,9 @@ const translations = {
 
         foundationalCSharpWithMicrosoftCourseTitle: "Foundational C# with Microsoft course Certificate",
         foundationalCSharpWithMicrosoftCourseDescription: "This course taught me the fundamentals of the C# programming language.",
+
+        daxusAIImmersionCourseTitle: "Daxus AI Immersion Certificate",  
+        daxusAIImmersionCourseDescription: "These classes taught me the basics of interaction, productivity, and development of agents and assistants with artificial intelligence.",
 
         certificatesTitle: "Certificates",
         showCertificate: "Show Certificate",
